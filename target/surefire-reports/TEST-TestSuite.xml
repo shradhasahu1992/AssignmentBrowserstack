@@ -1,0 +1,881 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report-3.0.xsd" version="3.0" name="TestSuite" time="227.313" tests="29" errors="0" skipped="9" failures="9">
+  <properties>
+    <property name="java.specification.version" value="21"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.class.path" value="C:\Users\Shradha Sahu\Downloads\DataDrivenFramework\DataDrivenFramework\target\test-classes;C:\Users\Shradha Sahu\Downloads\DataDrivenFramework\DataDrivenFramework\target\classes;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Shradha Sahu\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Shradha Sahu\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Shradha Sahu\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Shradha Sahu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Shradha Sahu\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Shradha Sahu\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Shradha Sahu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Shradha Sahu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Shradha Sahu\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Shradha Sahu\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Shradha Sahu\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Shradha Sahu\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Shradha Sahu\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Shradha Sahu\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\Shradha Sahu\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Shradha Sahu\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Shradha Sahu\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Shradha Sahu\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Shradha Sahu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Shradha Sahu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Shradha Sahu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Shradha Sahu\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Shradha Sahu\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Shradha Sahu\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Shradha Sahu\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Shradha Sahu\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Shradha Sahu\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Shradha Sahu\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Shradha Sahu\.m2\repository\com\browserstack\browserstack-local-java\1.0.6\browserstack-local-java-1.0.6.jar;C:\Users\Shradha Sahu\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\Shradha Sahu\.m2\repository\org\json\json\20160212\json-20160212.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Shradha Sahu\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Shradha Sahu\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Shradha Sahu\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Shradha Sahu\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;C:\Users\Shradha Sahu\.m2\repository\com\browserstack\browserstack-java-sdk\1.38.1\browserstack-java-sdk-1.38.1.jar;"/>
+    <property name="java.vm.vendor" value="Eclipse Adoptium"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="OBSERVABILITY_BUILD_HASHED_ID" value="vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m"/>
+    <property name="user.variant" value=""/>
+    <property name="java.vendor.url" value="https://adoptium.net/"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="os.name" value="Windows 11"/>
+    <property name="java.vm.specification.version" value="21"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="user.country" value="IN"/>
+    <property name="BROWSERSTACK_LOG_DIR" value="C:\Users\Shradha Sahu\Downloads\DataDrivenFramework\DataDrivenFramework\log"/>
+    <property name="sun.boot.library.path" value="C:\Users\Shradha Sahu\Downloads\eclipse-java-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin"/>
+    <property name="sun.java.command" value="C:\Users\Shradha Sahu\AppData\Local\Temp\surefire18349698209520959721\surefirebooter-20250728000237373_3.jar C:\Users\Shradha Sahu\AppData\Local\Temp\surefire18349698209520959721 2025-07-28T00-02-37_176-jvmRun1 surefire-20250728000237373_1tmp surefire_0-20250728000237373_2tmp"/>
+    <property name="BROWSERSTACK_TESTHUB_JWT" value="eyJhbGciOiJSUzI1NiJ9.eyJleHAiOiIxNzUzNjUxOTYyIiwiaXNzIjoid3d3LmJyb3dzZXJzdGFjay5jb20iLCJzdWIiOjk5MzM2MDUsInNjb3BlIjp7InByb2R1Y3QiOiJzZGsiLCJ1c2VyX2FjY2VzcyI6eyJ0ZXN0X29ic2VydmFiaWxpdHkiOjEsImF1dG9tYXRlIjoxLCJhcHBfYXV0b21hdGUiOjEsInBlcmN5IjoxLCJhcHBfcGVyY3kiOjEsImFjY2Vzc2liaWxpdHlfdGVzdGluZyI6MCwiYXBwX2FjY2Vzc2liaWxpdHlfdGVzdGluZyI6MSwiYXV0b21hdGVfdHVyYm9zY2FsZSI6MSwibG93X2NvZGVfYXV0b21hdGlvbiI6MX0sImlhYW1fcm9sZSI6Im93bmVyIn0sImdyb3VwX2lkIjo5ODQzNDA0LCJ0ZWFtX2lkIjpudWxsLCJ1ZGFjX2FjY2VzcyI6Imdsb2JhbCJ9.YAna03ciF3p_ORfEgxeASrmw7EZxdAJSHVACwaVOTyeaUu3AxaZ2a68v95Jid2JSM--vG0TrDYhd0WRSHebi74BImconGb4EBgWomvUQlUBf_1L41ja6PFRiXykYrVQkjQpHM0fi2MWIV0PrHCm4u-jvQ44oYlIwydMHCXk-aY0VkKGuQqXwfLsjiUPBr7rx8D1odZgBFPxcsxtP4wW_-t50QAd5QyW4aVcAD0jcfp4vK_0dszHmrRG-DQ0SQGUPeXah35ZYuxhmootu1KBbzdr5AHdN3OPEmDANF_-brDpa_AL_ZZwA7VpQxa1jbkfQpdK3YlUQw7kXIzuoXSbOeA"/>
+    <property name="jdk.debug" value="release"/>
+    <property name="surefire.test.class.path" value="C:\Users\Shradha Sahu\Downloads\DataDrivenFramework\DataDrivenFramework\target\test-classes;C:\Users\Shradha Sahu\Downloads\DataDrivenFramework\DataDrivenFramework\target\classes;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-java\3.14.0\selenium-java-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-api\3.14.0\selenium-api-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-chrome-driver\3.14.0\selenium-chrome-driver-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-edge-driver\3.14.0\selenium-edge-driver-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-firefox-driver\3.14.0\selenium-firefox-driver-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-ie-driver\3.14.0\selenium-ie-driver-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-opera-driver\3.14.0\selenium-opera-driver-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-remote-driver\3.14.0\selenium-remote-driver-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-safari-driver\3.14.0\selenium-safari-driver-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\seleniumhq\selenium\selenium-support\3.14.0\selenium-support-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\net\bytebuddy\byte-buddy\1.8.15\byte-buddy-1.8.15.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\commons\commons-exec\1.3\commons-exec-1.3.jar;C:\Users\Shradha Sahu\.m2\repository\commons-codec\commons-codec\1.10\commons-codec-1.10.jar;C:\Users\Shradha Sahu\.m2\repository\commons-logging\commons-logging\1.2\commons-logging-1.2.jar;C:\Users\Shradha Sahu\.m2\repository\com\google\guava\guava\25.0-jre\guava-25.0-jre.jar;C:\Users\Shradha Sahu\.m2\repository\com\google\code\findbugs\jsr305\1.3.9\jsr305-1.3.9.jar;C:\Users\Shradha Sahu\.m2\repository\org\checkerframework\checker-compat-qual\2.0.0\checker-compat-qual-2.0.0.jar;C:\Users\Shradha Sahu\.m2\repository\com\google\errorprone\error_prone_annotations\2.1.3\error_prone_annotations-2.1.3.jar;C:\Users\Shradha Sahu\.m2\repository\com\google\j2objc\j2objc-annotations\1.1\j2objc-annotations-1.1.jar;C:\Users\Shradha Sahu\.m2\repository\org\codehaus\mojo\animal-sniffer-annotations\1.14\animal-sniffer-annotations-1.14.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\httpcomponents\httpclient\4.5.5\httpclient-4.5.5.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\httpcomponents\httpcore\4.4.9\httpcore-4.4.9.jar;C:\Users\Shradha Sahu\.m2\repository\com\squareup\okhttp3\okhttp\3.10.0\okhttp-3.10.0.jar;C:\Users\Shradha Sahu\.m2\repository\com\squareup\okio\okio\1.14.1\okio-1.14.1.jar;C:\Users\Shradha Sahu\.m2\repository\org\testng\testng\7.10.2\testng-7.10.2.jar;C:\Users\Shradha Sahu\.m2\repository\com\beust\jcommander\1.82\jcommander-1.82.jar;C:\Users\Shradha Sahu\.m2\repository\org\webjars\jquery\3.7.1\jquery-3.7.1.jar;C:\Users\Shradha Sahu\.m2\repository\io\github\bonigarcia\webdrivermanager\5.6.3\webdrivermanager-5.6.3.jar;C:\Users\Shradha Sahu\.m2\repository\com\google\code\gson\gson\2.10.1\gson-2.10.1.jar;C:\Users\Shradha Sahu\.m2\repository\com\github\docker-java\docker-java\3.3.4\docker-java-3.3.4.jar;C:\Users\Shradha Sahu\.m2\repository\com\github\docker-java\docker-java-core\3.3.4\docker-java-core-3.3.4.jar;C:\Users\Shradha Sahu\.m2\repository\com\github\docker-java\docker-java-api\3.3.4\docker-java-api-3.3.4.jar;C:\Users\Shradha Sahu\.m2\repository\com\fasterxml\jackson\core\jackson-annotations\2.10.3\jackson-annotations-2.10.3.jar;C:\Users\Shradha Sahu\.m2\repository\com\fasterxml\jackson\core\jackson-databind\2.10.3\jackson-databind-2.10.3.jar;C:\Users\Shradha Sahu\.m2\repository\com\fasterxml\jackson\core\jackson-core\2.10.3\jackson-core-2.10.3.jar;C:\Users\Shradha Sahu\.m2\repository\org\bouncycastle\bcpkix-jdk18on\1.76\bcpkix-jdk18on-1.76.jar;C:\Users\Shradha Sahu\.m2\repository\org\bouncycastle\bcprov-jdk18on\1.76\bcprov-jdk18on-1.76.jar;C:\Users\Shradha Sahu\.m2\repository\org\bouncycastle\bcutil-jdk18on\1.76\bcutil-jdk18on-1.76.jar;C:\Users\Shradha Sahu\.m2\repository\org\slf4j\jcl-over-slf4j\1.7.30\jcl-over-slf4j-1.7.30.jar;C:\Users\Shradha Sahu\.m2\repository\com\github\docker-java\docker-java-transport-httpclient5\3.3.4\docker-java-transport-httpclient5-3.3.4.jar;C:\Users\Shradha Sahu\.m2\repository\com\github\docker-java\docker-java-transport\3.3.4\docker-java-transport-3.3.4.jar;C:\Users\Shradha Sahu\.m2\repository\net\java\dev\jna\jna\5.13.0\jna-5.13.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\brotli\dec\0.1.2\dec-0.1.2.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\commons\commons-lang3\3.14.0\commons-lang3-3.14.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\commons\commons-compress\1.25.0\commons-compress-1.25.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\httpcomponents\client5\httpclient5\5.2.1\httpclient5-5.2.1.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\httpcomponents\core5\httpcore5\5.2\httpcore5-5.2.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\httpcomponents\core5\httpcore5-h2\5.2\httpcore5-h2-5.2.jar;C:\Users\Shradha Sahu\.m2\repository\com\browserstack\browserstack-local-java\1.0.6\browserstack-local-java-1.0.6.jar;C:\Users\Shradha Sahu\.m2\repository\commons-io\commons-io\1.3.2\commons-io-1.3.2.jar;C:\Users\Shradha Sahu\.m2\repository\org\json\json\20160212\json-20160212.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\poi\poi\5.2.3\poi-5.2.3.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\commons\commons-collections4\4.4\commons-collections4-4.4.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\commons\commons-math3\3.6.1\commons-math3-3.6.1.jar;C:\Users\Shradha Sahu\.m2\repository\com\zaxxer\SparseBitSet\1.2\SparseBitSet-1.2.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\logging\log4j\log4j-api\2.18.0\log4j-api-2.18.0.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\poi\poi-ooxml\5.2.3\poi-ooxml-5.2.3.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\poi\poi-ooxml-lite\5.2.3\poi-ooxml-lite-5.2.3.jar;C:\Users\Shradha Sahu\.m2\repository\org\apache\xmlbeans\xmlbeans\5.1.1\xmlbeans-5.1.1.jar;C:\Users\Shradha Sahu\.m2\repository\com\github\virtuald\curvesapi\1.07\curvesapi-1.07.jar;C:\Users\Shradha Sahu\.m2\repository\org\slf4j\slf4j-api\2.0.9\slf4j-api-2.0.9.jar;C:\Users\Shradha Sahu\.m2\repository\org\slf4j\slf4j-simple\2.0.9\slf4j-simple-2.0.9.jar;C:\Users\Shradha Sahu\.m2\repository\com\browserstack\browserstack-java-sdk\1.38.1\browserstack-java-sdk-1.38.1.jar;"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="user.home" value="C:\Users\Shradha Sahu"/>
+    <property name="user.language" value="en"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="BROWSERSTACK_CLI_BIN_LISTEN_ADDR" value="127.0.0.1:5401"/>
+    <property name="java.version.date" value="2024-04-16"/>
+    <property name="java.home" value="C:\Users\Shradha Sahu\Downloads\eclipse-java-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre"/>
+    <property name="file.separator" value="\"/>
+    <property name="basedir" value="C:\Users\Shradha Sahu\Downloads\DataDrivenFramework\DataDrivenFramework"/>
+    <property name="style.color" value="always"/>
+    <property name="java.vm.compressedOopsMode" value="Zero based"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="surefire.real.class.path" value="C:\Users\Shradha Sahu\AppData\Local\Temp\surefire18349698209520959721\surefirebooter-20250728000237373_3.jar"/>
+    <property name="user.script" value=""/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="java.runtime.version" value="21.0.3+9-LTS"/>
+    <property name="user.name" value="Shradha Sahu"/>
+    <property name="stdout.encoding" value="Cp1252"/>
+    <property name="path.separator" value=";"/>
+    <property name="os.version" value="10.0"/>
+    <property name="java.runtime.name" value="OpenJDK Runtime Environment"/>
+    <property name="file.encoding" value="UTF-8"/>
+    <property name="java.vm.name" value="OpenJDK 64-Bit Server VM"/>
+    <property name="BROWSERSTACK_CLI_BIN_SESSION_ID" value="1559080f-a5a4-4fe8-bdb9-132a1045a5e4"/>
+    <property name="java.vendor.version" value="Temurin-21.0.3+9"/>
+    <property name="localRepository" value="C:\Users\Shradha Sahu\.m2\repository"/>
+    <property name="java.vendor.url.bug" value="https://github.com/adoptium/adoptium-support/issues"/>
+    <property name="java.io.tmpdir" value="C:\Users\SHRADH~1\AppData\Local\Temp\"/>
+    <property name="BROWSERSTACK_TESTHUB_UUID" value="vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m"/>
+    <property name="java.version" value="21.0.3"/>
+    <property name="user.dir" value="C:\Users\Shradha Sahu\Downloads\DataDrivenFramework\DataDrivenFramework"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="native.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Users\Shradha Sahu\Downloads\eclipse-java-2024-06-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Users/Shradha Sahu/Downloads/eclipse-java-2024-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530/jre/bin/server;C:/Users/Shradha Sahu/Downloads/eclipse-java-2024-06-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_21.0.3.v20240426-1530/jre/bin;C:\Python312\Scripts\;C:\Python312\;C:\Program Files\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\dotnet\;C:\Program Files\Git\cmd;C:\Program Files\maven\apache-maven-3.9.9\bin;C:\ProgramData\chocolatey\bin;C:\Users\Shradha Sahu\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Shradha Sahu\AppData\Local\Microsoft\WindowsApps;C:\Users\Shradha Sahu\AppData\Roaming\npm;C:\Users\Shradha Sahu\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Shradha Sahu\AppData\Roaming\nvm;C:\Program Files\nodejs;C:\Users\Shradha Sahu\AppData\Local\GitHubDesktop\bin;C:\Users\Shradha Sahu\Downloads\eclipse-java-2024-06-R-win32-x86_64\eclipse;;."/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="stderr.encoding" value="Cp1252"/>
+    <property name="java.vendor" value="Eclipse Adoptium"/>
+    <property name="java.vm.version" value="21.0.3+9-LTS"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="java.class.version" value="65.0"/>
+  </properties>
+  <testcase name="verifyPageIsInSpanish" classname="testcases.VerifySpanishLanguage" time="3.544">
+    <system-out><![CDATA[DEBUG CAPS >>> {browserName=Safari, bstack:options={buildName=Final Clean Build, debug=true, os=OS X, osVersion=Ventura, browserVersion=138, sessionName=VerifySpanishLanguage, consoleLogs=info, networkLogs=true}}
+DEBUG CAPS >>> {browserName=Safari, bstack:options={buildName=Final Clean Build, debug=true, os=ios, osVersion=17, browserVersion=, sessionName=VerifySpanishLanguage, consoleLogs=info, networkLogs=true}}
+DEBUG CAPS >>> {browserName=chrome, bstack:options={buildName=Final Clean Build, debug=true, os=android, osVersion=14.0, browserVersion=, sessionName=VerifySpanishLanguage, consoleLogs=info, networkLogs=true}, goog:chromeOptions={args=[--disable-notifications, --disable-popup-blocking], extensions=[]}}
+DEBUG CAPS >>> {acceptInsecureCerts=true, browserName=firefox, bstack:options={buildName=Final Clean Build, debug=true, os=Windows, osVersion=10, browserVersion=140, sessionName=VerifySpanishLanguage, consoleLogs=info, networkLogs=true}, moz:firefoxOptions={args=[], prefs={dom.webnotifications.enabled=false}}}
+DEBUG CAPS >>> {browserName=chrome, bstack:options={buildName=Final Clean Build, debug=true, os=Windows, osVersion=11, browserVersion=latest, sessionName=VerifySpanishLanguage, consoleLogs=info, networkLogs=true}, goog:chromeOptions={args=[--disable-notifications, --disable-popup-blocking], extensions=[]}}
+Session URL: https://automate.browserstack.com/sessions/9411e33edd04cceac45e1eaed761237e54412bf3
+Session URL: https://automate.browserstack.com/sessions/d9273206e64bdaf1ff2861783ad4c3157d720dd7
+Session URL: https://automate.browserstack.com/sessions/dd2320266588036098570a41163028a722957906
+Session URL: https://automate.browserstack.com/sessions/a58b4469c703879224a88d176f53584f3f6132b8
+Waiting for the cookie consent button to be present in the DOM...
+Cookie consent button found. Forcing click with JavaScript...
+JavaScript click executed.
+Verifying page language...
+Session URL: https://automate.browserstack.com/sessions/93d381ab23b35750f85fd774fcf3dac52f17898d
+Successfully verified page is in Spanish.
+Waiting for the cookie consent button to be present in the DOM...
+Waiting for the cookie consent button to be present in the DOM...
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2025 12:02:57 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 28, 2025 12:03:05 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 28, 2025 12:03:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 28, 2025 12:03:06 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 28, 2025 12:03:12 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="verifyPageIsInSpanish" classname="testcases.VerifySpanishLanguage" time="9.059">
+    <system-out><![CDATA[Cookie consent button found. Forcing click with JavaScript...
+Cookie consent button found. Forcing click with JavaScript...
+JavaScript click executed.
+Verifying page language...
+JavaScript click executed.
+Verifying page language...
+DEBUG CAPS >>> {acceptInsecureCerts=true, browserName=firefox, bstack:options={buildName=Final Clean Build, debug=true, os=Windows, osVersion=10, browserVersion=140, sessionName=ElPaisScraperTest, consoleLogs=info, networkLogs=true}, moz:firefoxOptions={args=[], prefs={dom.webnotifications.enabled=false}}}
+Successfully verified page is in Spanish.
+Successfully verified page is in Spanish.
+Waiting for the cookie consent button to be present in the DOM...
+Cookie consent button found. Forcing click with JavaScript...
+]]></system-out>
+  </testcase>
+  <testcase name="verifyPageIsInSpanish" classname="testcases.VerifySpanishLanguage" time="9.071"/>
+  <testcase name="verifyPageIsInSpanish" classname="testcases.VerifySpanishLanguage" time="2.069">
+    <system-out><![CDATA[DEBUG CAPS >>> {browserName=Safari, bstack:options={buildName=Final Clean Build, debug=true, os=ios, osVersion=17, browserVersion=, sessionName=ElPaisHeaderTranslator, consoleLogs=info, networkLogs=true}}
+]]></system-out>
+  </testcase>
+  <testcase name="verifyPageIsInSpanish" classname="testcases.VerifySpanishLanguage" time="0.343"/>
+  <testcase name="setup[OS X, Ventura, Safari, 138](0)" classname="testcases.ElPaisScraperTest" time="12.003">
+    <failure message="OS/Browser combination invalid: {&quot;browserName&quot;=&gt;&quot;Safari&quot;, &quot;bstack:options&quot;=&gt;{&quot;buildName&quot;=&gt;&quot;browserstack build #8&quot;, &quot;debug&quot;=&gt;true, &quot;os&quot;=&gt;&quot;OS X&quot;, &quot;osVersion&quot;=&gt;&quot;Ventura&quot;, &quot;browserVersion&quot;=&gt;&quot;138&quot;, &quot;sessionName&quot;=&gt;&quot;ElPaisScraperTest&quot;, &quot;consoleLogs&quot;=&gt;&quot;info&quot;, &quot;networkLogs&quot;=&gt;true, &quot;projectName&quot;=&gt;&quot;BrowserStack Sample&quot;, &quot;buildIdentifier&quot;=&gt;&quot;#8&quot;, &quot;hostName&quot;=&gt;&quot;DESKTOP-RULROEU&quot;, &quot;browserstackSDK&quot;=&gt;&quot;TestNG-javaagent/1.38.1&quot;, &quot;buildProductMap&quot;=&gt;{&quot;observability&quot;=&gt;true, &quot;accessibility&quot;=&gt;false, &quot;percy&quot;=&gt;false, &quot;automate&quot;=&gt;true, &quot;app_automate&quot;=&gt;false}, &quot;useW3C&quot;=&gt;true, &quot;accessibilityOptions&quot;=&gt;{}, &quot;testhubBuildUuid&quot;=&gt;&quot;vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m&quot;}, &quot;browserstack.is_hub_canary&quot;=&gt;false, &quot;acceptSslCert&quot;=&gt;false, &quot;detected_language&quot;=&gt;&quot;selenium/3.14.0 (java windows)&quot;, &quot;new_bucketing&quot;=&gt;true, &quot;browser&quot;=&gt;&quot;Safari&quot;, &quot;buildName&quot;=&gt;&quot;browserstack build #8&quot;, &quot;browserstack.debug&quot;=&gt;&quot;true&quot;, &quot;os&quot;=&gt;&quot;OS X&quot;, &quot;osVersion&quot;=&gt;&quot;Ventura&quot;, &quot;browserVersion&quot;=&gt;&quot;138&quot;, &quot;sessionName&quot;=&gt;&quot;ElPaisScraperTest&quot;, &quot;browserstack.consoleLogs&quot;=&gt;&quot;info&quot;, &quot;browserstack.networkLogs&quot;=&gt;&quot;true&quot;, &quot;projectName&quot;=&gt;&quot;BrowserStack Sample&quot;, &quot;browserstack.buildIdentifier&quot;=&gt;&quot;#8&quot;, &quot;browserstack.hostName&quot;=&gt;&quot;DESKTOP-RULROEU&quot;, &quot;browserstack.browserstackSDK&quot;=&gt;&quot;TestNG-javaagent/1.38.1&quot;, &quot;browserstack.buildProductMap.observability&quot;=&gt;true, &quot;browserstack.buildProductMap.accessibility&quot;=&gt;false, &quot;browserstack.buildProductMap.percy&quot;=&gt;false, &quot;browserstack.buildProductMap.automate&quot;=&gt;true, &quot;browserstack.buildProductMap.app_automate&quot;=&gt;false, &quot;browserstack.useW3C&quot;=&gt;&quot;true&quot;, &quot;browserstack.testhubBuildUuid&quot;=&gt;&quot;vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m&quot;, &quot;os_version&quot;=&gt;&quot;Ventura&quot;, &quot;browser_name&quot;=&gt;&quot;Safari&quot;, &quot;browser_version&quot;=&gt;&quot;138&quot;, &quot;version&quot;=&gt;&quot;138&quot;, &quot;browserstack.use_w3c&quot;=&gt;&quot;true&quot;, &quot;name&quot;=&gt;&quot;ElPaisScraperTest&quot;, &quot;build&quot;=&gt;&quot;browserstack build #8&quot;, &quot;project&quot;=&gt;&quot;BrowserStack Sample&quot;, &quot;browserstack.console&quot;=&gt;&quot;info&quot;, &quot;browserstack.seleniumLogs&quot;=&gt;true} (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.37 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-RULROEU&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+OS/Browser combination invalid: {"browserName"=>"Safari", "bstack:options"=>{"buildName"=>"browserstack build #8", "debug"=>true, "os"=>"OS X", "osVersion"=>"Ventura", "browserVersion"=>"138", "sessionName"=>"ElPaisScraperTest", "consoleLogs"=>"info", "networkLogs"=>true, "projectName"=>"BrowserStack Sample", "buildIdentifier"=>"#8", "hostName"=>"DESKTOP-RULROEU", "browserstackSDK"=>"TestNG-javaagent/1.38.1", "buildProductMap"=>{"observability"=>true, "accessibility"=>false, "percy"=>false, "automate"=>true, "app_automate"=>false}, "useW3C"=>true, "accessibilityOptions"=>{}, "testhubBuildUuid"=>"vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m"}, "browserstack.is_hub_canary"=>false, "acceptSslCert"=>false, "detected_language"=>"selenium/3.14.0 (java windows)", "new_bucketing"=>true, "browser"=>"Safari", "buildName"=>"browserstack build #8", "browserstack.debug"=>"true", "os"=>"OS X", "osVersion"=>"Ventura", "browserVersion"=>"138", "sessionName"=>"ElPaisScraperTest", "browserstack.consoleLogs"=>"info", "browserstack.networkLogs"=>"true", "projectName"=>"BrowserStack Sample", "browserstack.buildIdentifier"=>"#8", "browserstack.hostName"=>"DESKTOP-RULROEU", "browserstack.browserstackSDK"=>"TestNG-javaagent/1.38.1", "browserstack.buildProductMap.observability"=>true, "browserstack.buildProductMap.accessibility"=>false, "browserstack.buildProductMap.percy"=>false, "browserstack.buildProductMap.automate"=>true, "browserstack.buildProductMap.app_automate"=>false, "browserstack.useW3C"=>"true", "browserstack.testhubBuildUuid"=>"vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m", "os_version"=>"Ventura", "browser_name"=>"Safari", "browser_version"=>"138", "version"=>"138", "browserstack.use_w3c"=>"true", "name"=>"ElPaisScraperTest", "build"=>"browserstack build #8", "project"=>"BrowserStack Sample", "browserstack.console"=>"info", "browserstack.seleniumLogs"=>true} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.37 seconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-RULROEU', ip: '192.168.1.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: driver.version: RemoteWebDriver
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+	at testcases.BrowserStackBaseTest.setup(BrowserStackBaseTest.java:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[JavaScript click executed.
+Verifying page language...
+Waiting for the cookie consent button to be present in the DOM...
+DEBUG CAPS >>> {browserName=Safari, bstack:options={buildName=Final Clean Build, debug=true, os=OS X, osVersion=Ventura, browserVersion=138, sessionName=ElPaisScraperTest, consoleLogs=info, networkLogs=true}}
+DEBUG CAPS >>> {browserName=Safari, bstack:options={buildName=Final Clean Build, debug=true, os=ios, osVersion=17, browserVersion=, sessionName=ElPaisScraperTest, consoleLogs=info, networkLogs=true}}
+Cookie consent button found. Forcing click with JavaScript...
+JavaScript click executed.
+Verifying page language...
+]]></system-out>
+  </testcase>
+  <testcase name="setup[ios, 17, Safari, ](0)" classname="testcases.ElPaisScraperTest" time="0.038">
+    <failure message="Error: OS and OS Version not supported. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.25 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-RULROEU&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Error: OS and OS Version not supported. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.25 seconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-RULROEU', ip: '192.168.1.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: driver.version: RemoteWebDriver
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+	at testcases.BrowserStackBaseTest.setup(BrowserStackBaseTest.java:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+  </testcase>
+  <testcase name="scrapeOpinionArticles" classname="testcases.ElPaisScraperTest" time="0.0">
+    <skipped message="Error: OS and OS Version not supported. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.25 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-RULROEU&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+    <system-out><![CDATA[Successfully verified page is in Spanish.
+]]></system-out>
+  </testcase>
+  <testcase name="scrapeOpinionArticles" classname="testcases.ElPaisScraperTest" time="0.0">
+    <skipped message="OS/Browser combination invalid: {&quot;browserName&quot;=&gt;&quot;Safari&quot;, &quot;bstack:options&quot;=&gt;{&quot;buildName&quot;=&gt;&quot;browserstack build #8&quot;, &quot;debug&quot;=&gt;true, &quot;os&quot;=&gt;&quot;OS X&quot;, &quot;osVersion&quot;=&gt;&quot;Ventura&quot;, &quot;browserVersion&quot;=&gt;&quot;138&quot;, &quot;sessionName&quot;=&gt;&quot;ElPaisScraperTest&quot;, &quot;consoleLogs&quot;=&gt;&quot;info&quot;, &quot;networkLogs&quot;=&gt;true, &quot;projectName&quot;=&gt;&quot;BrowserStack Sample&quot;, &quot;buildIdentifier&quot;=&gt;&quot;#8&quot;, &quot;hostName&quot;=&gt;&quot;DESKTOP-RULROEU&quot;, &quot;browserstackSDK&quot;=&gt;&quot;TestNG-javaagent/1.38.1&quot;, &quot;buildProductMap&quot;=&gt;{&quot;observability&quot;=&gt;true, &quot;accessibility&quot;=&gt;false, &quot;percy&quot;=&gt;false, &quot;automate&quot;=&gt;true, &quot;app_automate&quot;=&gt;false}, &quot;useW3C&quot;=&gt;true, &quot;accessibilityOptions&quot;=&gt;{}, &quot;testhubBuildUuid&quot;=&gt;&quot;vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m&quot;}, &quot;browserstack.is_hub_canary&quot;=&gt;false, &quot;acceptSslCert&quot;=&gt;false, &quot;detected_language&quot;=&gt;&quot;selenium/3.14.0 (java windows)&quot;, &quot;new_bucketing&quot;=&gt;true, &quot;browser&quot;=&gt;&quot;Safari&quot;, &quot;buildName&quot;=&gt;&quot;browserstack build #8&quot;, &quot;browserstack.debug&quot;=&gt;&quot;true&quot;, &quot;os&quot;=&gt;&quot;OS X&quot;, &quot;osVersion&quot;=&gt;&quot;Ventura&quot;, &quot;browserVersion&quot;=&gt;&quot;138&quot;, &quot;sessionName&quot;=&gt;&quot;ElPaisScraperTest&quot;, &quot;browserstack.consoleLogs&quot;=&gt;&quot;info&quot;, &quot;browserstack.networkLogs&quot;=&gt;&quot;true&quot;, &quot;projectName&quot;=&gt;&quot;BrowserStack Sample&quot;, &quot;browserstack.buildIdentifier&quot;=&gt;&quot;#8&quot;, &quot;browserstack.hostName&quot;=&gt;&quot;DESKTOP-RULROEU&quot;, &quot;browserstack.browserstackSDK&quot;=&gt;&quot;TestNG-javaagent/1.38.1&quot;, &quot;browserstack.buildProductMap.observability&quot;=&gt;true, &quot;browserstack.buildProductMap.accessibility&quot;=&gt;false, &quot;browserstack.buildProductMap.percy&quot;=&gt;false, &quot;browserstack.buildProductMap.automate&quot;=&gt;true, &quot;browserstack.buildProductMap.app_automate&quot;=&gt;false, &quot;browserstack.useW3C&quot;=&gt;&quot;true&quot;, &quot;browserstack.testhubBuildUuid&quot;=&gt;&quot;vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m&quot;, &quot;os_version&quot;=&gt;&quot;Ventura&quot;, &quot;browser_name&quot;=&gt;&quot;Safari&quot;, &quot;browser_version&quot;=&gt;&quot;138&quot;, &quot;version&quot;=&gt;&quot;138&quot;, &quot;browserstack.use_w3c&quot;=&gt;&quot;true&quot;, &quot;name&quot;=&gt;&quot;ElPaisScraperTest&quot;, &quot;build&quot;=&gt;&quot;browserstack build #8&quot;, &quot;project&quot;=&gt;&quot;BrowserStack Sample&quot;, &quot;browserstack.console&quot;=&gt;&quot;info&quot;, &quot;browserstack.seleniumLogs&quot;=&gt;true} (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.37 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-RULROEU&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="scrapeOpinionArticles" classname="testcases.ElPaisScraperTest" time="0.0">
+    <skipped message="Error: OS and OS Version not supported. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.17 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-RULROEU&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="scrapeOpinionArticles" classname="testcases.ElPaisScraperTest" time="69.498">
+    <system-out><![CDATA[Session URL: https://automate.browserstack.com/sessions/a102991e801f406ba8f514755375902cea7df3cf
+🍪 Cookie popup accepted via JavaScript click.
+Cookie popup not found or could not be clicked. Proceeding...
+
+📰 Title: Fracaso moral internacional
+📄 Content (first 500 chars):
+A estas alturas resulta muy difícil seguir hablando del hambre en Gaza como de una “catástrofe humanitaria”, la expresión que acaban de utilizar los Gobiernos del Reino Unido, Francia y Alemania en el comunicado emitido el pasado viernes contra la brutal ofensiva militar israelí. Lo que se vive en la Franja no es una mera falta de suministros ni un efecto colateral de la desproporcionada acción bélica desencadenada a raíz del ataque terrorista de Hamás el 7 de octubre de 2023. El castigo de hamb...
+🖼 Image downloaded
+Cookie popup not found or could not be clicked. Proceeding...
+Cookie popup not found or could not be clicked. Proceeding...
+
+📰 Title: La ciencia se rebela contra Trump
+📄 Content (first 500 chars):
+La Universidad de Harvard y la NASA se cuentan entre las instituciones científicas más reconocibles, productivas y prestigiosas del mundo, pero están en el punto de mira de Donald Trump. La Casa Blanca ha congelado 2.600 millones de dólares en subvenciones y contratos a Harvard, la universidad que más premios Nobel ha conseguido para Estados Unidos (más de 150). A la agencia espacial, el presidente quiere quitarle una cuarta parte sus fondos, en un golpe de tal calibre que devolvería a la NASA a...
+🖼 Image downloaded
+🍪 Cookie popup accepted via JavaScript click.
+Cookie popup not found or could not be clicked. Proceeding...
+
+📰 Title: Más temprano que tarde caerán las dictaduras
+📄 Content (first 500 chars):
+Las dictaduras del siglo XX en América Latina se consolidaban gracias al respaldo concertado de las oligarquías, las jerárquicas católicas, el ejército de cuyas filas el tirano de turno generalmente provenía, y el gobierno de Estados Unidos, todos temerosos del comunismo soviético según el credo de la Guerra Fría. Una silla de cuatro patas. No eran dictaduras con base popular, ni eran populistas,
+🖼 Image downloaded
+
+📰 Title: Fracaso moral internacional
+📄 Content (first 500 chars):
+A estas alturas resulta muy difícil seguir hablando del hambre en Gaza como de una “catástrofe humanitaria”, la expresión que acaban de utilizar los Gobiernos del Reino Unido, Francia y Alemania en el comunicado emitido el pasado viernes contra la brutal ofensiva militar israelí. Lo que se vive en la Franja no es una mera falta de suministros ni un efecto colateral de la desproporcionada acción bélica desencadenada a raíz del ataque terrorista de Hamás el 7 de octubre de 2023. El castigo de hamb...
+🖼 Image downloaded
+Cookie popup not found or could not be clicked. Proceeding...
+
+📰 Title: Puro, blanco y letal
+📄 Content (first 500 chars):
+Verás caballos desbocados derribar todas las barreras a su paso, verás bípedos que se jactan de ser imparables. Aseveran las teorías, escritas en el manso papel, que los mercados son capaces de regularse, que los líderes mantienen la cabeza fría, que el poder se modera en su propio ejercicio, que sigilosos límites detienen los peores atropellos. Sin embargo ciertos negocios e intereses se vuelven tan gigantescos que ninguna resistencia parece capaz de frenarlos. Ga...
+🖼 Image downloaded
+Cookie popup not found or could not be clicked. Proceeding...
+
+📰 Title: La ciencia se rebela contra Trump
+📄 Content (first 500 chars):
+La Universidad de Harvard y la NASA se cuentan entre las instituciones científicas más reconocibles, productivas y prestigiosas del mundo, pero están en el punto de mira de Donald Trump. La Casa Blanca ha congelado 2.600 millones de dólares en subvenciones y contratos a Harvard, la universidad que más premios Nobel ha conseguido para Estados Unidos (más de 150). A la agencia espacial, el presidente quiere quitarle una cuarta parte sus fondos, en un golpe de tal calibre que devolvería a la NASA a...
+🖼 Image downloaded
+Cookie popup not found or could not be clicked. Proceeding...
+
+📰 Title: ‘Inventario de un viaje perfecto’
+📄 Content (first 500 chars):
+
+🖼 Image downloaded
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2025 12:03:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="scrapeOpinionArticles" classname="testcases.ElPaisScraperTest" time="25.557">
+    <system-out><![CDATA[DEBUG CAPS >>> {acceptInsecureCerts=true, browserName=firefox, bstack:options={buildName=Final Clean Build, debug=true, os=Windows, osVersion=10, browserVersion=140, sessionName=ElPaisHeaderAnalyzerOccurence, consoleLogs=info, networkLogs=true}, moz:firefoxOptions={args=[], prefs={dom.webnotifications.enabled=false}}}
+Cookie popup not found or could not be clicked. Proceeding...
+
+📰 Title: ‘Inventario de un viaje perfecto’
+📄 Content (first 500 chars):
+
+🖼 Image downloaded
+]]></system-out>
+  </testcase>
+  <testcase name="setup[android, 14.0, Chrome, ](0)" classname="testcases.ElPaisScraperTest" time="1.261">
+    <failure message="Error: OS and OS Version not supported. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.17 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-RULROEU&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Error: OS and OS Version not supported. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.17 seconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-RULROEU', ip: '192.168.1.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: driver.version: RemoteWebDriver
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+	at testcases.BrowserStackBaseTest.setup(BrowserStackBaseTest.java:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[DEBUG CAPS >>> {browserName=Safari, bstack:options={buildName=Final Clean Build, debug=true, os=ios, osVersion=17, browserVersion=, sessionName=ElPaisHeaderAnalyzerOccurence, consoleLogs=info, networkLogs=true}}
+]]></system-out>
+  </testcase>
+  <testcase name="setup[ios, 17, Safari, ](0)" classname="testcases.ElPaisHeaderTranslator" time="3.063">
+    <failure message="Error: OS and OS Version not supported. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.25 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-RULROEU&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Error: OS and OS Version not supported. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.25 seconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-RULROEU', ip: '192.168.1.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: driver.version: RemoteWebDriver
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+	at testcases.BrowserStackBaseTest.setup(BrowserStackBaseTest.java:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[DEBUG CAPS >>> {browserName=Safari, bstack:options={buildName=Final Clean Build, debug=true, os=OS X, osVersion=Ventura, browserVersion=138, sessionName=ElPaisHeaderTranslator, consoleLogs=info, networkLogs=true}}
+]]></system-out>
+  </testcase>
+  <testcase name="setup[OS X, Ventura, Safari, 138](0)" classname="testcases.ElPaisHeaderTranslator" time="0.495">
+    <failure message="OS/Browser combination invalid: {&quot;browserName&quot;=&gt;&quot;Safari&quot;, &quot;bstack:options&quot;=&gt;{&quot;buildName&quot;=&gt;&quot;browserstack build #8&quot;, &quot;debug&quot;=&gt;true, &quot;os&quot;=&gt;&quot;OS X&quot;, &quot;osVersion&quot;=&gt;&quot;Ventura&quot;, &quot;browserVersion&quot;=&gt;&quot;138&quot;, &quot;sessionName&quot;=&gt;&quot;ElPaisHeaderTranslator&quot;, &quot;consoleLogs&quot;=&gt;&quot;info&quot;, &quot;networkLogs&quot;=&gt;true, &quot;projectName&quot;=&gt;&quot;BrowserStack Sample&quot;, &quot;buildIdentifier&quot;=&gt;&quot;#8&quot;, &quot;hostName&quot;=&gt;&quot;DESKTOP-RULROEU&quot;, &quot;browserstackSDK&quot;=&gt;&quot;TestNG-javaagent/1.38.1&quot;, &quot;buildProductMap&quot;=&gt;{&quot;observability&quot;=&gt;true, &quot;accessibility&quot;=&gt;false, &quot;percy&quot;=&gt;false, &quot;automate&quot;=&gt;true, &quot;app_automate&quot;=&gt;false}, &quot;useW3C&quot;=&gt;true, &quot;accessibilityOptions&quot;=&gt;{}, &quot;testhubBuildUuid&quot;=&gt;&quot;vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m&quot;}, &quot;browserstack.is_hub_canary&quot;=&gt;false, &quot;acceptSslCert&quot;=&gt;false, &quot;detected_language&quot;=&gt;&quot;selenium/3.14.0 (java windows)&quot;, &quot;new_bucketing&quot;=&gt;true, &quot;browser&quot;=&gt;&quot;Safari&quot;, &quot;buildName&quot;=&gt;&quot;browserstack build #8&quot;, &quot;browserstack.debug&quot;=&gt;&quot;true&quot;, &quot;os&quot;=&gt;&quot;OS X&quot;, &quot;osVersion&quot;=&gt;&quot;Ventura&quot;, &quot;browserVersion&quot;=&gt;&quot;138&quot;, &quot;sessionName&quot;=&gt;&quot;ElPaisHeaderTranslator&quot;, &quot;browserstack.consoleLogs&quot;=&gt;&quot;info&quot;, &quot;browserstack.networkLogs&quot;=&gt;&quot;true&quot;, &quot;projectName&quot;=&gt;&quot;BrowserStack Sample&quot;, &quot;browserstack.buildIdentifier&quot;=&gt;&quot;#8&quot;, &quot;browserstack.hostName&quot;=&gt;&quot;DESKTOP-RULROEU&quot;, &quot;browserstack.browserstackSDK&quot;=&gt;&quot;TestNG-javaagent/1.38.1&quot;, &quot;browserstack.buildProductMap.observability&quot;=&gt;true, &quot;browserstack.buildProductMap.accessibility&quot;=&gt;false, &quot;browserstack.buildProductMap.percy&quot;=&gt;false, &quot;browserstack.buildProductMap.automate&quot;=&gt;true, &quot;browserstack.buildProductMap.app_automate&quot;=&gt;false, &quot;browserstack.useW3C&quot;=&gt;&quot;true&quot;, &quot;browserstack.testhubBuildUuid&quot;=&gt;&quot;vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m&quot;, &quot;os_version&quot;=&gt;&quot;Ventura&quot;, &quot;browser_name&quot;=&gt;&quot;Safari&quot;, &quot;browser_version&quot;=&gt;&quot;138&quot;, &quot;version&quot;=&gt;&quot;138&quot;, &quot;browserstack.use_w3c&quot;=&gt;&quot;true&quot;, &quot;name&quot;=&gt;&quot;ElPaisHeaderTranslator&quot;, &quot;build&quot;=&gt;&quot;browserstack build #8&quot;, &quot;project&quot;=&gt;&quot;BrowserStack Sample&quot;, &quot;browserstack.console&quot;=&gt;&quot;info&quot;, &quot;browserstack.seleniumLogs&quot;=&gt;true} (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.17 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-RULROEU&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+OS/Browser combination invalid: {"browserName"=>"Safari", "bstack:options"=>{"buildName"=>"browserstack build #8", "debug"=>true, "os"=>"OS X", "osVersion"=>"Ventura", "browserVersion"=>"138", "sessionName"=>"ElPaisHeaderTranslator", "consoleLogs"=>"info", "networkLogs"=>true, "projectName"=>"BrowserStack Sample", "buildIdentifier"=>"#8", "hostName"=>"DESKTOP-RULROEU", "browserstackSDK"=>"TestNG-javaagent/1.38.1", "buildProductMap"=>{"observability"=>true, "accessibility"=>false, "percy"=>false, "automate"=>true, "app_automate"=>false}, "useW3C"=>true, "accessibilityOptions"=>{}, "testhubBuildUuid"=>"vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m"}, "browserstack.is_hub_canary"=>false, "acceptSslCert"=>false, "detected_language"=>"selenium/3.14.0 (java windows)", "new_bucketing"=>true, "browser"=>"Safari", "buildName"=>"browserstack build #8", "browserstack.debug"=>"true", "os"=>"OS X", "osVersion"=>"Ventura", "browserVersion"=>"138", "sessionName"=>"ElPaisHeaderTranslator", "browserstack.consoleLogs"=>"info", "browserstack.networkLogs"=>"true", "projectName"=>"BrowserStack Sample", "browserstack.buildIdentifier"=>"#8", "browserstack.hostName"=>"DESKTOP-RULROEU", "browserstack.browserstackSDK"=>"TestNG-javaagent/1.38.1", "browserstack.buildProductMap.observability"=>true, "browserstack.buildProductMap.accessibility"=>false, "browserstack.buildProductMap.percy"=>false, "browserstack.buildProductMap.automate"=>true, "browserstack.buildProductMap.app_automate"=>false, "browserstack.useW3C"=>"true", "browserstack.testhubBuildUuid"=>"vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m", "os_version"=>"Ventura", "browser_name"=>"Safari", "browser_version"=>"138", "version"=>"138", "browserstack.use_w3c"=>"true", "name"=>"ElPaisHeaderTranslator", "build"=>"browserstack build #8", "project"=>"BrowserStack Sample", "browserstack.console"=>"info", "browserstack.seleniumLogs"=>true} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.17 seconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-RULROEU', ip: '192.168.1.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: driver.version: RemoteWebDriver
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+	at testcases.BrowserStackBaseTest.setup(BrowserStackBaseTest.java:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[Successfully verified page is in Spanish.
+]]></system-out>
+  </testcase>
+  <testcase name="translateArticleHeaders" classname="testcases.ElPaisHeaderTranslator" time="0.0">
+    <skipped message="Error: OS and OS Version not supported. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.25 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-RULROEU&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+    <system-out><![CDATA[DEBUG CAPS >>> {browserName=chrome, bstack:options={buildName=Final Clean Build, debug=true, os=android, osVersion=14.0, browserVersion=, sessionName=ElPaisScraperTest, consoleLogs=info, networkLogs=true}, goog:chromeOptions={args=[--disable-notifications, --disable-popup-blocking], extensions=[]}}
+]]></system-out>
+  </testcase>
+  <testcase name="translateArticleHeaders" classname="testcases.ElPaisHeaderTranslator" time="0.0">
+    <skipped message="OS/Browser combination invalid: {&quot;browserName&quot;=&gt;&quot;Safari&quot;, &quot;bstack:options&quot;=&gt;{&quot;buildName&quot;=&gt;&quot;browserstack build #8&quot;, &quot;debug&quot;=&gt;true, &quot;os&quot;=&gt;&quot;OS X&quot;, &quot;osVersion&quot;=&gt;&quot;Ventura&quot;, &quot;browserVersion&quot;=&gt;&quot;138&quot;, &quot;sessionName&quot;=&gt;&quot;ElPaisHeaderTranslator&quot;, &quot;consoleLogs&quot;=&gt;&quot;info&quot;, &quot;networkLogs&quot;=&gt;true, &quot;projectName&quot;=&gt;&quot;BrowserStack Sample&quot;, &quot;buildIdentifier&quot;=&gt;&quot;#8&quot;, &quot;hostName&quot;=&gt;&quot;DESKTOP-RULROEU&quot;, &quot;browserstackSDK&quot;=&gt;&quot;TestNG-javaagent/1.38.1&quot;, &quot;buildProductMap&quot;=&gt;{&quot;observability&quot;=&gt;true, &quot;accessibility&quot;=&gt;false, &quot;percy&quot;=&gt;false, &quot;automate&quot;=&gt;true, &quot;app_automate&quot;=&gt;false}, &quot;useW3C&quot;=&gt;true, &quot;accessibilityOptions&quot;=&gt;{}, &quot;testhubBuildUuid&quot;=&gt;&quot;vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m&quot;}, &quot;browserstack.is_hub_canary&quot;=&gt;false, &quot;acceptSslCert&quot;=&gt;false, &quot;detected_language&quot;=&gt;&quot;selenium/3.14.0 (java windows)&quot;, &quot;new_bucketing&quot;=&gt;true, &quot;browser&quot;=&gt;&quot;Safari&quot;, &quot;buildName&quot;=&gt;&quot;browserstack build #8&quot;, &quot;browserstack.debug&quot;=&gt;&quot;true&quot;, &quot;os&quot;=&gt;&quot;OS X&quot;, &quot;osVersion&quot;=&gt;&quot;Ventura&quot;, &quot;browserVersion&quot;=&gt;&quot;138&quot;, &quot;sessionName&quot;=&gt;&quot;ElPaisHeaderTranslator&quot;, &quot;browserstack.consoleLogs&quot;=&gt;&quot;info&quot;, &quot;browserstack.networkLogs&quot;=&gt;&quot;true&quot;, &quot;projectName&quot;=&gt;&quot;BrowserStack Sample&quot;, &quot;browserstack.buildIdentifier&quot;=&gt;&quot;#8&quot;, &quot;browserstack.hostName&quot;=&gt;&quot;DESKTOP-RULROEU&quot;, &quot;browserstack.browserstackSDK&quot;=&gt;&quot;TestNG-javaagent/1.38.1&quot;, &quot;browserstack.buildProductMap.observability&quot;=&gt;true, &quot;browserstack.buildProductMap.accessibility&quot;=&gt;false, &quot;browserstack.buildProductMap.percy&quot;=&gt;false, &quot;browserstack.buildProductMap.automate&quot;=&gt;true, &quot;browserstack.buildProductMap.app_automate&quot;=&gt;false, &quot;browserstack.useW3C&quot;=&gt;&quot;true&quot;, &quot;browserstack.testhubBuildUuid&quot;=&gt;&quot;vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m&quot;, &quot;os_version&quot;=&gt;&quot;Ventura&quot;, &quot;browser_name&quot;=&gt;&quot;Safari&quot;, &quot;browser_version&quot;=&gt;&quot;138&quot;, &quot;version&quot;=&gt;&quot;138&quot;, &quot;browserstack.use_w3c&quot;=&gt;&quot;true&quot;, &quot;name&quot;=&gt;&quot;ElPaisHeaderTranslator&quot;, &quot;build&quot;=&gt;&quot;browserstack build #8&quot;, &quot;project&quot;=&gt;&quot;BrowserStack Sample&quot;, &quot;browserstack.console&quot;=&gt;&quot;info&quot;, &quot;browserstack.seleniumLogs&quot;=&gt;true} (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.17 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-RULROEU&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="translateArticleHeaders" classname="testcases.ElPaisHeaderTranslator" time="0.0">
+    <skipped message="Error: OS and OS Version not supported. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.22 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-RULROEU&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="translateArticleHeaders" classname="testcases.ElPaisHeaderTranslator" time="12.946">
+    <system-out><![CDATA[DEBUG CAPS >>> {acceptInsecureCerts=true, browserName=firefox, bstack:options={buildName=Final Clean Build, debug=true, os=Windows, osVersion=10, browserVersion=140, sessionName=ElPaisHeaderTranslator, consoleLogs=info, networkLogs=true}, moz:firefoxOptions={args=[], prefs={dom.webnotifications.enabled=false}}}
+Cookie popup not found or could not be clicked. Proceeding...
+
+📰 Title: Más temprano que tarde caerán las dictaduras
+📄 Content (first 500 chars):
+Las dictaduras del siglo XX en América Latina se consolidaban gracias al respaldo concertado de las oligarquías, las jerárquicas católicas, el ejército de cuyas filas el tirano de turno generalmente provenía, y el gobierno de Estados Unidos, todos temerosos del comunismo soviético según el credo de la Guerra Fría. Una silla de cuatro patas. No eran dictaduras con base popular, ni eran populistas,
+🖼 Image downloaded
+Session URL: https://automate.browserstack.com/sessions/e0ce7686ccad2538954d9b838fad434fbd704b16
+Cookie popup not found or could not be clicked. Proceeding...
+
+📰 Title: Puro, blanco y letal
+📄 Content (first 500 chars):
+Verás caballos desbocados derribar todas las barreras a su paso, verás bípedos que se jactan de ser imparables. Aseveran las teorías, escritas en el manso papel, que los mercados son capaces de regularse, que los líderes mantienen la cabeza fría, que el poder se modera en su propio ejercicio, que sigilosos límites detienen los peores atropellos. Sin embargo ciertos negocios e intereses se vuelven tan gigantescos que ninguna resistencia parece capaz de frenarlos. Ga...
+🖼 Image downloaded
+🍪 Cookie popup accepted via JavaScript click.
+
+=== Translated Article Headers ===
+
+🇪🇸 Original: Fracaso moral internacional
+🇬🇧 English: International moral failure
+
+🇪🇸 Original: La ciencia se rebela contra Trump
+🇬🇧 English: Science rebels against Trump
+
+🇪🇸 Original: Más temprano que tarde caerán las dictaduras
+🇬🇧 English: Sooner rather than later the dictatorships will fall
+
+🇪🇸 Original: Puro, blanco y letal
+🇬🇧 English: Pure, white and lethal
+
+🇪🇸 Original: ‘Inventario de un viaje perfecto’
+🇬🇧 English: ‘Inventory of a perfect trip’
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2025 12:05:11 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="translateArticleHeaders" classname="testcases.ElPaisHeaderTranslator" time="12.068">
+    <system-out><![CDATA[DEBUG CAPS >>> {browserName=chrome, bstack:options={buildName=Final Clean Build, debug=true, os=Windows, osVersion=11, browserVersion=latest, sessionName=ElPaisHeaderTranslator, consoleLogs=info, networkLogs=true}, goog:chromeOptions={args=[--disable-notifications, --disable-popup-blocking], extensions=[]}}
+Session URL: https://automate.browserstack.com/sessions/ba0fbed5a19eafd858fa9d712ca804cf6e69cd9c
+Session URL: https://automate.browserstack.com/sessions/8c3ee01941d68d36cb56d087a657037dc7e81239
+🍪 Cookie popup accepted via JavaScript click.
+
+=== Translated Article Headers ===
+
+🇪🇸 Original: Fracaso moral internacional
+🇬🇧 English: International moral failure
+
+🇪🇸 Original: La ciencia se rebela contra Trump
+🇬🇧 English: Science rebels against Trump
+
+🇪🇸 Original: Más temprano que tarde caerán las dictaduras
+🇬🇧 English: Sooner rather than later the dictatorships will fall
+
+🇪🇸 Original: Puro, blanco y letal
+🇬🇧 English: Pure, white and lethal
+
+🇪🇸 Original: ‘Inventario de un viaje perfecto’
+🇬🇧 English: ‘Inventory of a perfect trip’
+🍪 Cookie popup accepted via JavaScript click.
+
+=== Translating and Analyzing Headers ===
+
+🇪🇸 Original: Fracaso moral internacional
+
+🇪🇸 Original: La ciencia se rebela contra Trump
+
+🇪🇸 Original: Más temprano que tarde caerán las dictaduras
+🇬🇧 English: International moral failure
+
+🇪🇸 Original: Puro, blanco y letal
+🇬🇧 English: Science rebels against Trump
+🇬🇧 English: Sooner rather than later the dictatorships will fall
+
+🇪🇸 Original: ‘Inventario de un viaje perfecto’
+🇬🇧 English: Pure, white and lethal
+🇬🇧 English: ‘Inventory of a perfect trip’
+
+=== Word Frequency Analysis ===
+No words were repeated across all translated headers.
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2025 12:05:43 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Jul 28, 2025 12:05:44 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="setup[android, 14.0, Chrome, ](0)" classname="testcases.ElPaisHeaderTranslator" time="1.49">
+    <failure message="Error: OS and OS Version not supported. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.22 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-RULROEU&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Error: OS and OS Version not supported. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.22 seconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-RULROEU', ip: '192.168.1.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: driver.version: RemoteWebDriver
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+	at testcases.BrowserStackBaseTest.setup(BrowserStackBaseTest.java:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+  </testcase>
+  <testcase name="setup[ios, 17, Safari, ](0)" classname="testcases.ElPaisHeaderAnalyzerOccurence" time="1.15">
+    <failure message="Error: OS and OS Version not supported. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.23 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-RULROEU&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Error: OS and OS Version not supported. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.23 seconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-RULROEU', ip: '192.168.1.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: driver.version: RemoteWebDriver
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+	at testcases.BrowserStackBaseTest.setup(BrowserStackBaseTest.java:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[DEBUG CAPS >>> {browserName=Safari, bstack:options={buildName=Final Clean Build, debug=true, os=OS X, osVersion=Ventura, browserVersion=138, sessionName=ElPaisHeaderAnalyzerOccurence, consoleLogs=info, networkLogs=true}}
+]]></system-out>
+  </testcase>
+  <testcase name="setup[OS X, Ventura, Safari, 138](0)" classname="testcases.ElPaisHeaderAnalyzerOccurence" time="1.043">
+    <failure message="OS/Browser combination invalid: {&quot;browserName&quot;=&gt;&quot;Safari&quot;, &quot;bstack:options&quot;=&gt;{&quot;buildName&quot;=&gt;&quot;browserstack build #8&quot;, &quot;debug&quot;=&gt;true, &quot;os&quot;=&gt;&quot;OS X&quot;, &quot;osVersion&quot;=&gt;&quot;Ventura&quot;, &quot;browserVersion&quot;=&gt;&quot;138&quot;, &quot;sessionName&quot;=&gt;&quot;ElPaisHeaderAnalyzerOccurence&quot;, &quot;consoleLogs&quot;=&gt;&quot;info&quot;, &quot;networkLogs&quot;=&gt;true, &quot;projectName&quot;=&gt;&quot;BrowserStack Sample&quot;, &quot;buildIdentifier&quot;=&gt;&quot;#8&quot;, &quot;hostName&quot;=&gt;&quot;DESKTOP-RULROEU&quot;, &quot;browserstackSDK&quot;=&gt;&quot;TestNG-javaagent/1.38.1&quot;, &quot;buildProductMap&quot;=&gt;{&quot;observability&quot;=&gt;true, &quot;accessibility&quot;=&gt;false, &quot;percy&quot;=&gt;false, &quot;automate&quot;=&gt;true, &quot;app_automate&quot;=&gt;false}, &quot;useW3C&quot;=&gt;true, &quot;accessibilityOptions&quot;=&gt;{}, &quot;testhubBuildUuid&quot;=&gt;&quot;vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m&quot;}, &quot;browserstack.is_hub_canary&quot;=&gt;false, &quot;acceptSslCert&quot;=&gt;false, &quot;detected_language&quot;=&gt;&quot;selenium/3.14.0 (java windows)&quot;, &quot;new_bucketing&quot;=&gt;true, &quot;browser&quot;=&gt;&quot;Safari&quot;, &quot;buildName&quot;=&gt;&quot;browserstack build #8&quot;, &quot;browserstack.debug&quot;=&gt;&quot;true&quot;, &quot;os&quot;=&gt;&quot;OS X&quot;, &quot;osVersion&quot;=&gt;&quot;Ventura&quot;, &quot;browserVersion&quot;=&gt;&quot;138&quot;, &quot;sessionName&quot;=&gt;&quot;ElPaisHeaderAnalyzerOccurence&quot;, &quot;browserstack.consoleLogs&quot;=&gt;&quot;info&quot;, &quot;browserstack.networkLogs&quot;=&gt;&quot;true&quot;, &quot;projectName&quot;=&gt;&quot;BrowserStack Sample&quot;, &quot;browserstack.buildIdentifier&quot;=&gt;&quot;#8&quot;, &quot;browserstack.hostName&quot;=&gt;&quot;DESKTOP-RULROEU&quot;, &quot;browserstack.browserstackSDK&quot;=&gt;&quot;TestNG-javaagent/1.38.1&quot;, &quot;browserstack.buildProductMap.observability&quot;=&gt;true, &quot;browserstack.buildProductMap.accessibility&quot;=&gt;false, &quot;browserstack.buildProductMap.percy&quot;=&gt;false, &quot;browserstack.buildProductMap.automate&quot;=&gt;true, &quot;browserstack.buildProductMap.app_automate&quot;=&gt;false, &quot;browserstack.useW3C&quot;=&gt;&quot;true&quot;, &quot;browserstack.testhubBuildUuid&quot;=&gt;&quot;vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m&quot;, &quot;os_version&quot;=&gt;&quot;Ventura&quot;, &quot;browser_name&quot;=&gt;&quot;Safari&quot;, &quot;browser_version&quot;=&gt;&quot;138&quot;, &quot;version&quot;=&gt;&quot;138&quot;, &quot;browserstack.use_w3c&quot;=&gt;&quot;true&quot;, &quot;name&quot;=&gt;&quot;ElPaisHeaderAnalyzerOccurence&quot;, &quot;build&quot;=&gt;&quot;browserstack build #8&quot;, &quot;project&quot;=&gt;&quot;BrowserStack Sample&quot;, &quot;browserstack.console&quot;=&gt;&quot;info&quot;, &quot;browserstack.seleniumLogs&quot;=&gt;true} (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.17 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-RULROEU&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+OS/Browser combination invalid: {"browserName"=>"Safari", "bstack:options"=>{"buildName"=>"browserstack build #8", "debug"=>true, "os"=>"OS X", "osVersion"=>"Ventura", "browserVersion"=>"138", "sessionName"=>"ElPaisHeaderAnalyzerOccurence", "consoleLogs"=>"info", "networkLogs"=>true, "projectName"=>"BrowserStack Sample", "buildIdentifier"=>"#8", "hostName"=>"DESKTOP-RULROEU", "browserstackSDK"=>"TestNG-javaagent/1.38.1", "buildProductMap"=>{"observability"=>true, "accessibility"=>false, "percy"=>false, "automate"=>true, "app_automate"=>false}, "useW3C"=>true, "accessibilityOptions"=>{}, "testhubBuildUuid"=>"vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m"}, "browserstack.is_hub_canary"=>false, "acceptSslCert"=>false, "detected_language"=>"selenium/3.14.0 (java windows)", "new_bucketing"=>true, "browser"=>"Safari", "buildName"=>"browserstack build #8", "browserstack.debug"=>"true", "os"=>"OS X", "osVersion"=>"Ventura", "browserVersion"=>"138", "sessionName"=>"ElPaisHeaderAnalyzerOccurence", "browserstack.consoleLogs"=>"info", "browserstack.networkLogs"=>"true", "projectName"=>"BrowserStack Sample", "browserstack.buildIdentifier"=>"#8", "browserstack.hostName"=>"DESKTOP-RULROEU", "browserstack.browserstackSDK"=>"TestNG-javaagent/1.38.1", "browserstack.buildProductMap.observability"=>true, "browserstack.buildProductMap.accessibility"=>false, "browserstack.buildProductMap.percy"=>false, "browserstack.buildProductMap.automate"=>true, "browserstack.buildProductMap.app_automate"=>false, "browserstack.useW3C"=>"true", "browserstack.testhubBuildUuid"=>"vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m", "os_version"=>"Ventura", "browser_name"=>"Safari", "browser_version"=>"138", "version"=>"138", "browserstack.use_w3c"=>"true", "name"=>"ElPaisHeaderAnalyzerOccurence", "build"=>"browserstack build #8", "project"=>"BrowserStack Sample", "browserstack.console"=>"info", "browserstack.seleniumLogs"=>true} (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.17 seconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-RULROEU', ip: '192.168.1.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: driver.version: RemoteWebDriver
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+	at testcases.BrowserStackBaseTest.setup(BrowserStackBaseTest.java:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[DEBUG CAPS >>> {browserName=chrome, bstack:options={buildName=Final Clean Build, debug=true, os=Windows, osVersion=11, browserVersion=latest, sessionName=ElPaisScraperTest, consoleLogs=info, networkLogs=true}, goog:chromeOptions={args=[--disable-notifications, --disable-popup-blocking], extensions=[]}}
+]]></system-out>
+  </testcase>
+  <testcase name="analyzeTranslatedHeaders" classname="testcases.ElPaisHeaderAnalyzerOccurence" time="0.0">
+    <skipped message="Error: OS and OS Version not supported. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.23 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-RULROEU&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+    <system-out><![CDATA[DEBUG CAPS >>> {browserName=chrome, bstack:options={buildName=Final Clean Build, debug=true, os=android, osVersion=14.0, browserVersion=, sessionName=ElPaisHeaderTranslator, consoleLogs=info, networkLogs=true}, goog:chromeOptions={args=[--disable-notifications, --disable-popup-blocking], extensions=[]}}
+]]></system-out>
+  </testcase>
+  <testcase name="analyzeTranslatedHeaders" classname="testcases.ElPaisHeaderAnalyzerOccurence" time="0.0">
+    <skipped message="OS/Browser combination invalid: {&quot;browserName&quot;=&gt;&quot;Safari&quot;, &quot;bstack:options&quot;=&gt;{&quot;buildName&quot;=&gt;&quot;browserstack build #8&quot;, &quot;debug&quot;=&gt;true, &quot;os&quot;=&gt;&quot;OS X&quot;, &quot;osVersion&quot;=&gt;&quot;Ventura&quot;, &quot;browserVersion&quot;=&gt;&quot;138&quot;, &quot;sessionName&quot;=&gt;&quot;ElPaisHeaderAnalyzerOccurence&quot;, &quot;consoleLogs&quot;=&gt;&quot;info&quot;, &quot;networkLogs&quot;=&gt;true, &quot;projectName&quot;=&gt;&quot;BrowserStack Sample&quot;, &quot;buildIdentifier&quot;=&gt;&quot;#8&quot;, &quot;hostName&quot;=&gt;&quot;DESKTOP-RULROEU&quot;, &quot;browserstackSDK&quot;=&gt;&quot;TestNG-javaagent/1.38.1&quot;, &quot;buildProductMap&quot;=&gt;{&quot;observability&quot;=&gt;true, &quot;accessibility&quot;=&gt;false, &quot;percy&quot;=&gt;false, &quot;automate&quot;=&gt;true, &quot;app_automate&quot;=&gt;false}, &quot;useW3C&quot;=&gt;true, &quot;accessibilityOptions&quot;=&gt;{}, &quot;testhubBuildUuid&quot;=&gt;&quot;vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m&quot;}, &quot;browserstack.is_hub_canary&quot;=&gt;false, &quot;acceptSslCert&quot;=&gt;false, &quot;detected_language&quot;=&gt;&quot;selenium/3.14.0 (java windows)&quot;, &quot;new_bucketing&quot;=&gt;true, &quot;browser&quot;=&gt;&quot;Safari&quot;, &quot;buildName&quot;=&gt;&quot;browserstack build #8&quot;, &quot;browserstack.debug&quot;=&gt;&quot;true&quot;, &quot;os&quot;=&gt;&quot;OS X&quot;, &quot;osVersion&quot;=&gt;&quot;Ventura&quot;, &quot;browserVersion&quot;=&gt;&quot;138&quot;, &quot;sessionName&quot;=&gt;&quot;ElPaisHeaderAnalyzerOccurence&quot;, &quot;browserstack.consoleLogs&quot;=&gt;&quot;info&quot;, &quot;browserstack.networkLogs&quot;=&gt;&quot;true&quot;, &quot;projectName&quot;=&gt;&quot;BrowserStack Sample&quot;, &quot;browserstack.buildIdentifier&quot;=&gt;&quot;#8&quot;, &quot;browserstack.hostName&quot;=&gt;&quot;DESKTOP-RULROEU&quot;, &quot;browserstack.browserstackSDK&quot;=&gt;&quot;TestNG-javaagent/1.38.1&quot;, &quot;browserstack.buildProductMap.observability&quot;=&gt;true, &quot;browserstack.buildProductMap.accessibility&quot;=&gt;false, &quot;browserstack.buildProductMap.percy&quot;=&gt;false, &quot;browserstack.buildProductMap.automate&quot;=&gt;true, &quot;browserstack.buildProductMap.app_automate&quot;=&gt;false, &quot;browserstack.useW3C&quot;=&gt;&quot;true&quot;, &quot;browserstack.testhubBuildUuid&quot;=&gt;&quot;vkmu2sccc4crfei8hcc8mwpvkdewa2y9ua5baf6m&quot;, &quot;os_version&quot;=&gt;&quot;Ventura&quot;, &quot;browser_name&quot;=&gt;&quot;Safari&quot;, &quot;browser_version&quot;=&gt;&quot;138&quot;, &quot;version&quot;=&gt;&quot;138&quot;, &quot;browserstack.use_w3c&quot;=&gt;&quot;true&quot;, &quot;name&quot;=&gt;&quot;ElPaisHeaderAnalyzerOccurence&quot;, &quot;build&quot;=&gt;&quot;browserstack build #8&quot;, &quot;project&quot;=&gt;&quot;BrowserStack Sample&quot;, &quot;browserstack.console&quot;=&gt;&quot;info&quot;, &quot;browserstack.seleniumLogs&quot;=&gt;true} (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.17 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-RULROEU&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="analyzeTranslatedHeaders" classname="testcases.ElPaisHeaderAnalyzerOccurence" time="0.0">
+    <skipped message="Error: OS and OS Version not supported. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.19 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-RULROEU&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: driver.version: RemoteWebDriver"/>
+  </testcase>
+  <testcase name="analyzeTranslatedHeaders" classname="testcases.ElPaisHeaderAnalyzerOccurence" time="13.716">
+    <system-out><![CDATA[DEBUG CAPS >>> {browserName=chrome, bstack:options={buildName=Final Clean Build, debug=true, os=Windows, osVersion=11, browserVersion=latest, sessionName=ElPaisHeaderAnalyzerOccurence, consoleLogs=info, networkLogs=true}, goog:chromeOptions={args=[--disable-notifications, --disable-popup-blocking], extensions=[]}}
+]]></system-out>
+  </testcase>
+  <testcase name="analyzeTranslatedHeaders" classname="testcases.ElPaisHeaderAnalyzerOccurence" time="22.679">
+    <system-out><![CDATA[Session URL: https://automate.browserstack.com/sessions/04005052ddd978fd5a0fdd078b57aae1a04cf59c
+🍪 Cookie popup accepted via JavaScript click.
+
+=== Translating and Analyzing Headers ===
+
+🇪🇸 Original: Fracaso moral internacional
+
+🇪🇸 Original: La ciencia se rebela contra Trump
+
+🇪🇸 Original: Más temprano que tarde caerán las dictaduras
+
+🇪🇸 Original: Puro, blanco y letal
+🇬🇧 English: International moral failure
+
+🇪🇸 Original: ‘Inventario de un viaje perfecto’
+🇬🇧 English: Pure, white and lethal
+🇬🇧 English: Sooner rather than later the dictatorships will fall
+🇬🇧 English: Science rebels against Trump
+🇬🇧 English: ‘Inventory of a perfect trip’
+
+=== Word Frequency Analysis ===
+No words were repeated across all translated headers.
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2025 12:06:07 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+  <testcase name="setup[android, 14.0, Chrome, ](0)" classname="testcases.ElPaisHeaderAnalyzerOccurence" time="0.475">
+    <failure message="Error: OS and OS Version not supported. (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 1.19 seconds&#10;Build info: version: &apos;3.14.0&apos;, revision: &apos;aacccce0&apos;, time: &apos;2018-08-02T20:19:58.91Z&apos;&#10;System info: host: &apos;DESKTOP-RULROEU&apos;, ip: &apos;192.168.1.99&apos;, os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.3&apos;&#10;Driver info: driver.version: RemoteWebDriver" type="org.openqa.selenium.WebDriverException"><![CDATA[org.openqa.selenium.WebDriverException: 
+Error: OS and OS Version not supported. (WARNING: The server did not provide any stacktrace information)
+Command duration or timeout: 1.19 seconds
+Build info: version: '3.14.0', revision: 'aacccce0', time: '2018-08-02T20:19:58.91Z'
+System info: host: 'DESKTOP-RULROEU', ip: '192.168.1.99', os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '21.0.3'
+Driver info: driver.version: RemoteWebDriver
+	at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+	at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
+	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
+	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$new$0(JsonWireProtocolResponse.java:53)
+	at org.openqa.selenium.remote.JsonWireProtocolResponse.lambda$getResponseFunction$2(JsonWireProtocolResponse.java:91)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:122)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:197)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:1034)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:129)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:527)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:513)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:499)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:647)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:125)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:73)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:548)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:212)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:130)
+	at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:143)
+	at testcases.BrowserStackBaseTest.setup(BrowserStackBaseTest.java:61)
+	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+	at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
+	at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
+	at org.testng.internal.invokers.TestInvoker.runConfigMethods(TestInvoker.java:833)
+	at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:600)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+	at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+	at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
+	at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+	at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+	at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+	at org.testng.TestRunner.privateRun(TestRunner.java:739)
+	at org.testng.TestRunner.run(TestRunner.java:614)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+	at org.testng.SuiteRunner$SuiteWorker.run(SuiteRunner.java:463)
+	at org.testng.internal.thread.ThreadUtil.lambda$execute$0(ThreadUtil.java:64)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+]]></failure>
+    <system-out><![CDATA[DEBUG CAPS >>> {browserName=chrome, bstack:options={buildName=Final Clean Build, debug=true, os=android, osVersion=14.0, browserVersion=, sessionName=ElPaisHeaderAnalyzerOccurence, consoleLogs=info, networkLogs=true}, goog:chromeOptions={args=[--disable-notifications, --disable-popup-blocking], extensions=[]}}
+Session URL: https://automate.browserstack.com/sessions/1e05632dec2a150afafb3b9d2c4a70cb10fdbc5c
+]]></system-out>
+    <system-err><![CDATA[Jul 28, 2025 12:03:34 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+]]></system-err>
+  </testcase>
+</testsuite>

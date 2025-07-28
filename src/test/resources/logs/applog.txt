@@ -1,0 +1,5 @@
+INFO    2024-09-09 22:10:22,446 [main] base.BaseTest  - Config properties loaded !!!
+INFO    2024-09-09 22:10:22,448 [main] base.BaseTest  - OR properties loaded !!!
+ERROR   2024-09-09 22:10:23,790 [main] io.github.bonigarcia.wdm.online.HttpClient  - Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_128
+WARN    2024-09-09 22:10:23,793 [main] io.github.bonigarcia.wdm.versions.VersionDetector  - Exception reading https://chromedriver.storage.googleapis.com/LATEST_RELEASE_128 to get latest version of chromedriver (Error HTTP 404 executing https://chromedriver.storage.googleapis.com/LATEST_RELEASE_128)
+INFO    2024-09-09 22:10:24,028 [main] io.github.bonigarcia.wdm.WebDriverManager  - Exporting webdriver.chrome.driver as C:\Users\Shradha Sahu\.cache\selenium\chromedriver\win32\114.0.5735.90\chromedriver.exe

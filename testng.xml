@@ -1,0 +1,79 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="BrowserStack Cross-Browser Suite" parallel="tests" thread-count="5">
+
+    <!-- Test 1: Windows 11 - Chrome Latest -->
+    <test name="Win11 Chrome Test">
+        <parameter name="os" value="Windows"/>
+        <parameter name="os_version" value="11"/>
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="browser_version" value="latest"/>
+        <parameter name="device" value=""/> <!-- Keep empty for desktop -->
+        <classes>
+            <class name="testcases.VerifySpanishLanguage"/>
+            <class name="testcases.ElPaisScraperTest"/>
+            <class name="testcases.ElPaisHeaderTranslator"/>
+            <class name="testcases.ElPaisHeaderAnalyzerOccurence"/>
+        </classes>
+    </test>
+
+    <!-- Test 2: Mac OS - Safari Latest -->
+    <test name="MacOS Safari Test">
+        <parameter name="os" value="OS X"/>
+        <parameter name="os_version" value="Ventura"/>
+        <parameter name="browser" value="Safari"/>
+        <parameter name="browser_version" value="138"/>
+        <parameter name="device" value=""/> <!-- Keep empty for desktop -->
+        <classes>
+            <class name="testcases.VerifySpanishLanguage"/>
+            <class name="testcases.ElPaisScraperTest"/>
+            <class name="testcases.ElPaisHeaderTranslator"/>
+            <class name="testcases.ElPaisHeaderAnalyzerOccurence"/>
+        </classes>
+    </test>
+
+    <!-- Test 3: Windows 10 - Firefox Latest -->
+    <test name="Win10 Firefox Test">
+        <parameter name="os" value="Windows"/>
+        <parameter name="os_version" value="10"/>
+        <parameter name="browser" value="Firefox"/>
+        <parameter name="browser_version" value="140"/>
+        <parameter name="device" value=""/> 
+        <classes>
+            <class name="testcases.VerifySpanishLanguage"/>
+            <class name="testcases.ElPaisScraperTest"/>
+            <class name="testcases.ElPaisHeaderTranslator"/>
+            <class name="testcases.ElPaisHeaderAnalyzerOccurence"/>
+        </classes>
+    </test>
+
+    <!-- Test 4: Android - Google Pixel -->
+    <test name="Android Chrome Test">
+        <parameter name="os" value="android"/>
+        <parameter name="os_version" value="14.0"/>
+        <parameter name="browser" value="Chrome"/>
+        <parameter name="browser_version" value=""/> 
+        <parameter name="device" value="Google Pixel 8 Pro"/>
+        <classes>
+            <class name="testcases.VerifySpanishLanguage"/>
+            <class name="testcases.ElPaisScraperTest"/>
+            <class name="testcases.ElPaisHeaderTranslator"/>
+            <class name="testcases.ElPaisHeaderAnalyzerOccurence"/>
+        </classes>
+    </test>
+
+    <!-- Test 5: iOS - iPhone -->
+    <test name="iOS Safari Test">
+        <parameter name="os" value="ios"/>
+        <parameter name="os_version" value="17"/>
+        <parameter name="browser" value="Safari"/>
+        <parameter name="browser_version" value=""/> <!-- Often not needed for mobile -->
+        <parameter name="device" value="iPhone 15 Pro Max"/>
+        <classes>
+            <class name="testcases.VerifySpanishLanguage"/>
+            <class name="testcases.ElPaisScraperTest"/>
+            <class name="testcases.ElPaisHeaderTranslator"/>
+            <class name="testcases.ElPaisHeaderAnalyzerOccurence"/>            
+        </classes>
+    </test>
+
+</suite>

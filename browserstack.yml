@@ -1,0 +1,9 @@
+userName: shradhasahu_A3d5Pl
+accessKey: NxWFRntdVvY8EuLGPpTy
+buildName: "browserstack build"
+projectName: "BrowserStack Sample"
+CUSTOM_TAG_1: "You can set a custom Build Tag here"
+# Use CUSTOM_TAG_<N> and set more build tags as you need.
+framework: testng
+testObservability: true
+browserstackAutomation: false # Set to true for tests on BrowserStack products.

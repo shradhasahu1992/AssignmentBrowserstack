@@ -1,0 +1,7 @@
+testcases\ElPaisHeaderTranslator.class
+utilities\ExcelReader$1.class
+testcases\BrowserStackBaseTest.class
+utilities\ExcelReader.class
+testcases\ElPaisScraperTest.class
+testcases\VerifySpanishLanguage.class
+testcases\ElPaisHeaderAnalyzerOccurence.class

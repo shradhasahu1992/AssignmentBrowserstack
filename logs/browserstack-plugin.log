@@ -1,0 +1,1154 @@
+14:35:53.544 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+14:35:53.560 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeVersion=1.5, archetypeGroupId=com.browserstack, archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=eh1HJGLb3YaDXyv5H3Qz, groupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=shradhasahu_Qvg73C, BROWSERSTACK_FRAMEWORK=java, BUILD_NAME=browserstack build, version=1.0, PROJECT_NAME=BrowserStack Sample, BROWSERSTACK_SOURCE=java:eclipse:v1.0.10]
+14:54:05.093 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+14:54:05.093 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:54:05.095 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+14:54:05.095 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+14:54:05.096 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:54:05.096 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+14:54:13.407 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+14:54:13.407 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:54:13.408 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+14:54:13.409 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+14:54:13.409 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:54:13.409 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+14:58:14.593 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+14:58:14.593 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:58:14.594 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+14:58:14.594 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+14:58:14.594 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:58:14.595 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+14:58:25.320 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+14:58:25.320 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:58:25.322 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+14:58:25.322 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+14:58:25.322 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+14:58:25.323 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+15:20:35.515 [main] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+15:33:14.626 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+15:33:14.626 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:33:14.627 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+15:33:14.628 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+15:33:14.628 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+15:33:14.629 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+16:48:51.588 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+16:48:51.588 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:48:51.590 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+16:48:51.590 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+16:48:51.590 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:48:51.591 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+16:48:57.391 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+16:48:57.391 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:48:57.393 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+16:48:57.395 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+16:48:57.395 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+16:48:57.396 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:03:33.903 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:03:33.903 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:03:33.903 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:03:33.904 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:03:33.904 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:03:33.904 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:03:39.955 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:03:39.955 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:03:39.956 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:03:39.957 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:03:39.957 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:03:39.958 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:03:45.406 [Worker-109: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+17:03:45.410 [Worker-109: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:03:45.410 [Worker-109: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+17:03:52.552 [Worker-109: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+17:05:22.353 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:05:22.353 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:05:22.354 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:05:22.354 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:05:22.354 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:05:22.355 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:05:25.612 [Worker-111: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+17:05:25.617 [Worker-111: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:05:25.619 [Worker-111: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+17:09:39.116 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:09:39.116 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:09:39.117 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:09:39.117 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:09:39.118 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:09:39.118 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:10:08.898 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:10:08.898 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:10:08.899 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:10:08.899 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:10:08.900 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:10:08.900 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:10:17.865 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:10:17.865 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:10:17.866 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:10:17.866 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:10:17.866 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:10:17.867 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:10:21.466 [Worker-114: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+17:10:21.468 [Worker-114: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+17:10:21.470 [Worker-114: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:10:21.471 [Worker-114: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+17:12:11.988 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:12:11.988 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:12:11.989 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:12:11.989 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:12:11.989 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:12:11.990 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:12:14.499 [Worker-118: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+17:12:14.501 [Worker-118: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+17:12:14.503 [Worker-118: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:12:14.503 [Worker-118: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+17:13:10.078 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:13:10.078 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:13:10.079 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:13:10.079 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:13:10.079 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:13:10.081 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:13:48.854 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:13:48.854 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:13:48.855 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:13:48.855 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:13:48.855 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:13:48.856 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:13:52.089 [Worker-118: Launching test] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+17:13:52.090 [Worker-118: Launching test] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+17:13:52.091 [Worker-118: Launching test] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:13:52.092 [Worker-118: Launching test] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+17:14:42.147 [main] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+17:16:32.438 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:16:32.438 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:16:32.438 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:16:32.439 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:16:32.439 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:16:32.439 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:16:35.615 [Worker-114: Launching test] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+17:16:35.617 [Worker-114: Launching test] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:16:35.617 [Worker-114: Launching test] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+17:17:13.241 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:17:13.242 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:17:13.242 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:17:13.243 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:17:13.243 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:17:13.243 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:17:16.974 [Worker-122: Launching test] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+17:17:16.977 [Worker-122: Launching test] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+17:17:16.980 [Worker-122: Launching test] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:17:16.981 [Worker-122: Launching test] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+17:20:49.658 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:20:49.659 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:20:49.659 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:20:49.659 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:20:49.659 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:20:49.660 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:20:54.289 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:20:54.289 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:20:54.290 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:20:54.290 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:20:54.290 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:20:54.291 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:20:57.046 [Worker-114: Launching test] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+17:20:57.047 [Worker-114: Launching test] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+17:20:57.049 [Worker-114: Launching test] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:20:57.050 [Worker-114: Launching test] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+17:21:01.597 [Worker-114: Launching test] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+17:21:18.330 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:21:18.330 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:21:18.330 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:21:18.331 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:21:18.331 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:21:18.331 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:21:21.324 [Worker-127: Launching test] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+17:21:21.326 [Worker-127: Launching test] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:21:21.327 [Worker-127: Launching test] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+17:22:36.456 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:22:36.456 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:22:36.457 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:22:36.457 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:22:36.457 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:22:36.458 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:22:39.275 [Worker-123: Launching test] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+17:22:39.277 [Worker-123: Launching test] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+17:22:39.279 [Worker-123: Launching test] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:22:39.280 [Worker-123: Launching test] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+17:25:43.993 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:25:43.993 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:25:43.994 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:25:43.994 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:25:43.994 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:25:43.995 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:25:48.041 [Worker-114: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+17:25:48.042 [Worker-114: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+17:25:48.043 [Worker-114: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:25:48.044 [Worker-114: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+17:32:54.223 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:32:54.223 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:32:54.225 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:32:54.226 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:32:54.226 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:32:54.227 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:49:18.368 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:49:18.368 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:49:18.369 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:49:18.369 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:49:18.369 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:49:18.371 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:49:25.018 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:49:25.019 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:49:25.020 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:49:25.020 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:49:25.020 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:49:25.021 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:51:47.844 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:51:47.844 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:51:47.845 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:51:47.845 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:51:47.845 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:51:47.846 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:51:52.369 [Worker-135: Launching CrossBrowserTranslateTest] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+17:51:52.371 [Worker-135: Launching CrossBrowserTranslateTest] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+17:51:52.372 [Worker-135: Launching CrossBrowserTranslateTest] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:51:52.373 [Worker-135: Launching CrossBrowserTranslateTest] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+17:57:10.876 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+17:57:10.877 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:57:10.877 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+17:57:10.878 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+17:57:10.878 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:57:10.878 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+17:59:10.167 [main] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+17:59:47.945 [Worker-0: Launching BrowserStackW3CJavaOnly] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+17:59:47.947 [Worker-0: Launching BrowserStackW3CJavaOnly] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+17:59:47.948 [Worker-0: Launching BrowserStackW3CJavaOnly] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {}
+18:03:31.626 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:03:31.627 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:03:31.628 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+18:03:31.628 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:03:31.628 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:03:31.629 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+18:03:35.547 [Worker-157: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:03:57.141 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:03:57.142 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:03:57.142 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+18:03:57.143 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:03:57.143 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:03:57.143 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+18:04:12.614 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:04:12.614 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:04:12.615 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+18:04:12.616 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:04:12.616 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:04:12.616 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+18:04:16.301 [Worker-0: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:05:08.678 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:05:08.678 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:05:08.679 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+18:05:08.679 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:05:08.679 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:05:08.680 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+18:05:28.905 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:05:28.906 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:05:28.907 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+18:05:28.907 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:05:28.907 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:05:28.908 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+18:05:32.375 [Worker-0: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:05:52.642 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:05:52.642 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:05:52.642 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+18:05:52.643 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:05:52.643 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:05:52.643 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+18:06:30.067 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:06:30.067 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:06:30.068 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+18:06:30.068 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:06:30.068 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:06:30.069 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+18:06:32.924 [Worker-158: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:08:56.521 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:08:56.522 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:08:56.522 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+18:08:56.522 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:08:56.522 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:08:56.523 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+18:09:01.156 [Worker-135: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:13:28.122 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:13:28.123 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:13:28.123 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+18:13:28.123 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:13:28.123 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:13:28.124 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+18:13:31.609 [Worker-161: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:15:58.103 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:15:58.103 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:15:58.104 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+18:15:58.104 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:15:58.104 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:15:58.105 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+18:16:02.873 [Worker-160: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:21:33.807 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:21:33.807 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:21:33.808 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+18:21:33.808 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:21:33.808 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:21:33.809 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+18:21:37.318 [Worker-164: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:25:20.000 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:25:20.000 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:25:20.001 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+18:25:20.001 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:25:20.001 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:25:20.002 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+18:25:23.229 [Worker-169: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:30:38.005 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:30:38.005 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:30:38.006 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+18:30:38.006 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:30:38.006 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:30:38.006 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+18:30:41.490 [Worker-174: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:32:25.452 [Worker-174: Launching VerifySpanishLanguage.verifyPageIsInSpanish] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+18:32:25.454 [Worker-174: Launching VerifySpanishLanguage.verifyPageIsInSpanish] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+18:32:25.457 [Worker-174: Launching VerifySpanishLanguage.verifyPageIsInSpanish] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:32:25.458 [Worker-174: Launching VerifySpanishLanguage.verifyPageIsInSpanish] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+18:35:12.507 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:35:12.507 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:35:12.508 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+18:35:12.508 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:35:12.508 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:35:12.508 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+18:36:45.380 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:36:45.380 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:36:45.381 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+18:36:45.382 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:36:45.382 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:36:45.383 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+18:37:54.630 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+18:37:54.631 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:37:54.631 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+18:37:54.632 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+18:37:54.632 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+18:37:54.632 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+18:37:58.489 [Worker-180: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+21:39:37.312 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+21:39:37.313 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+21:39:37.313 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+21:39:37.313 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+21:39:37.313 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+21:39:37.314 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+21:39:41.415 [Worker-177: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:02:30.915 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:02:30.915 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:02:30.916 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+22:02:30.917 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:02:30.917 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:02:30.918 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+22:02:34.653 [Worker-194: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:06:09.655 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:06:09.655 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:06:09.656 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+22:06:09.656 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:06:09.656 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:06:09.656 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+22:06:36.170 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:06:36.171 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:06:36.172 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+22:06:36.172 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:06:36.172 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:06:36.173 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+22:09:23.587 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:09:23.588 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:09:23.588 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+22:09:23.589 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:09:23.589 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:09:23.589 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+22:09:52.219 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:09:52.219 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:09:52.220 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+22:09:52.220 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:09:52.220 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:09:52.221 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+22:09:54.503 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:09:54.503 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:09:54.504 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+22:09:54.506 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:09:54.506 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:09:54.507 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+22:15:54.519 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:15:54.520 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:15:54.520 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+22:15:54.521 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:15:54.521 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:15:54.521 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+22:18:53.255 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:18:53.256 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:18:53.256 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+22:18:53.257 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:18:53.257 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:18:53.257 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+22:18:57.021 [Worker-186: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:18:57.024 [Worker-186: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+22:18:57.026 [Worker-186: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:18:57.027 [Worker-186: Launching VerifySpanishLanguage] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+22:27:00.087 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:27:00.087 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:27:00.088 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+22:27:00.088 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:27:00.088 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:27:00.089 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+22:27:04.356 [Worker-209: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:28:29.661 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:28:29.662 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:28:29.662 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+22:28:29.663 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:28:29.663 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:28:29.664 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+22:28:37.163 [Worker-212: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:33:25.674 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:33:25.674 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:33:25.674 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+22:33:25.674 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:33:25.674 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:33:25.675 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+22:33:28.743 [Worker-214: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:35:31.560 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:35:31.560 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:35:31.561 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+22:35:31.562 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:35:31.563 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:35:31.563 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+22:35:36.316 [Worker-214: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:35:53.091 [Worker-214: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:36:51.202 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:36:51.203 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:36:51.204 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+22:36:51.204 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:36:51.204 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:36:51.206 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+22:37:00.581 [Worker-217: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:37:20.820 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:37:20.820 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:37:20.821 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+22:37:20.821 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:37:20.821 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:37:20.821 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+22:37:30.458 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:37:30.458 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:37:30.459 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+22:37:30.460 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:37:30.460 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:37:30.461 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+22:37:35.382 [Worker-219: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:51:49.998 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:51:50.000 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:51:50.002 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+22:51:50.002 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:51:50.002 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:51:50.004 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+22:51:53.728 [Worker-220: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:51:53.729 [Worker-220: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:11:43.542 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:11:43.543 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:11:43.544 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:11:43.545 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:11:43.545 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:11:43.546 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:12:51.584 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:12:51.584 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:12:51.585 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:12:51.586 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:12:51.586 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:12:51.587 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:12:54.747 [Worker-242: Launching LoginAutomation] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:12:54.750 [Worker-242: Launching LoginAutomation] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:12:54.752 [Worker-242: Launching LoginAutomation] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:12:54.753 [Worker-242: Launching LoginAutomation] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+23:14:57.051 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:14:57.052 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:14:57.053 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:14:57.055 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:14:57.055 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:14:57.056 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:15:01.338 [Worker-242: Launching LoginAutomation] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:15:01.341 [Worker-242: Launching LoginAutomation] INFO  c.b.BrowserStackPluginActivator - Existing javaagentArgline (BROWSERSTACK_JAVAAGENT_ARGLINE) in plugin prefs is 
+23:15:01.343 [Worker-242: Launching LoginAutomation] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:15:01.345 [Worker-242: Launching LoginAutomation] INFO  c.b.BrowserStackPluginActivator - The environment variables for the launch configuration are {BROWSERSTACK_EXEC_SOURCE=eclipse/1.0.10}
+23:26:57.957 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:26:57.958 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:26:57.959 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:26:57.960 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:26:57.960 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:26:57.961 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:27:04.084 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:27:04.084 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:27:04.086 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:27:04.088 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:27:04.088 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:27:04.089 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:27:07.283 [Worker-235: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:30:36.309 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:30:36.309 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:30:36.310 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:30:36.311 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:30:36.311 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:30:36.311 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:30:39.684 [Worker-250: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:32:18.401 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:32:18.401 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:32:18.402 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:32:18.402 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:32:18.403 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:32:18.403 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:32:24.057 [Worker-248: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:38:40.482 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:38:40.482 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:38:40.483 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:38:40.483 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:38:40.483 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:38:40.483 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:38:44.428 [Worker-254: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:39:30.439 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:39:30.439 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:39:30.440 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:39:30.440 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:39:30.440 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:39:30.441 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:39:33.855 [Worker-251: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:43:12.207 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:43:12.207 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:43:12.208 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:43:12.208 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:43:12.208 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:43:12.209 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:43:16.331 [Worker-254: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:46:10.747 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:46:10.747 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:46:10.748 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:46:10.748 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:46:10.748 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:46:10.748 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:52:00.067 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:52:00.067 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:52:00.068 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:52:00.068 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:52:00.069 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:52:00.069 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:52:06.602 [Worker-257: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:52:18.180 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:52:18.180 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:52:18.180 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:52:18.181 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:52:18.181 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:52:18.181 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:52:22.516 [Worker-262: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:56:16.608 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:56:16.608 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:56:16.609 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:56:16.609 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:56:16.609 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:56:16.610 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:56:20.527 [Worker-255: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:56:23.374 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:56:23.374 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:56:23.375 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:56:23.375 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:56:23.375 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:56:23.375 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:56:28.120 [Worker-264: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:58:18.561 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:58:18.561 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:58:18.562 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:58:18.562 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:58:18.562 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:58:18.563 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:58:22.692 [Worker-263: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:58:24.891 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:58:24.892 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:58:24.892 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:58:24.893 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:58:24.893 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:58:24.895 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:58:30.931 [Worker-265: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:05:29.137 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:05:29.137 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:05:29.137 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:05:29.139 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:05:29.139 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:05:29.139 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:05:35.517 [Worker-264: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:05:37.114 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:05:37.114 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:05:37.115 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:05:37.115 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:05:37.115 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:05:37.116 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:05:42.059 [Worker-278: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:19:02.877 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:19:02.877 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:19:02.878 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:19:02.879 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:19:02.879 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:19:02.879 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:19:08.275 [Worker-283: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:19:10.807 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:19:10.807 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:19:10.808 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:19:10.808 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:19:10.809 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:19:10.809 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:19:16.248 [Worker-283: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:24:52.642 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:24:52.642 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:24:52.644 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:24:52.645 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:24:52.645 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:24:52.647 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:24:55.948 [Worker-285: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:25:01.055 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:25:01.055 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:25:01.056 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:25:01.056 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:25:01.056 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:25:01.057 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:25:06.167 [Worker-285: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:25:24.795 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:25:24.796 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:25:24.796 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:25:24.797 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:25:24.797 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:25:24.797 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:25:30.731 [Worker-289: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:25:40.164 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:25:40.165 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:25:40.165 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:25:40.166 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:25:40.166 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:25:40.167 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:25:44.446 [Worker-289: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:27:01.497 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:27:01.497 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:27:01.497 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:27:01.498 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:27:01.498 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:27:01.498 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:27:11.228 [Worker-293: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:29:21.352 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:29:21.352 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:29:21.353 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:29:21.353 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:29:21.353 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:29:21.353 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:29:25.610 [Worker-285: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:29:34.872 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:29:34.872 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:29:34.873 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:29:34.874 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:29:34.874 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:29:34.874 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:29:40.849 [Worker-288: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:31:11.882 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:31:11.882 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:31:11.883 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:31:11.883 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:31:11.883 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:31:11.884 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:31:14.736 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:31:14.736 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:31:14.738 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:31:14.739 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:31:14.739 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:31:14.741 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:31:17.218 [Worker-294: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:31:18.859 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:31:18.859 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:31:18.860 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:31:18.860 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:31:18.860 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:31:18.861 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:31:24.566 [Worker-295: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:36:07.158 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:36:07.158 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:36:07.159 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:36:07.160 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:36:07.160 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:36:07.161 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:36:10.963 [Worker-297: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:36:13.320 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:36:13.320 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:36:13.321 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:36:13.322 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:36:13.322 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:36:13.322 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:36:19.206 [Worker-298: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:39:42.557 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:39:42.557 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:39:42.557 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:39:42.558 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:39:42.558 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:39:42.559 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:39:46.396 [Worker-301: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:39:48.258 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:39:48.259 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:39:48.259 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:39:48.260 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:39:48.260 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:39:48.261 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:39:55.103 [Worker-301: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+01:01:11.270 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+01:01:11.270 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+01:01:11.271 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+01:01:11.272 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+01:01:11.272 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+01:01:11.273 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+01:01:17.633 [Worker-300: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+01:01:20.606 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+01:01:20.606 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+01:01:20.607 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+01:01:20.607 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+01:01:20.607 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+01:01:20.607 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+01:01:26.470 [Worker-299: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:03:46.679 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:03:46.683 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:03:46.685 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:03:46.685 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:03:46.685 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:03:46.686 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:06:32.645 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:06:32.645 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:06:32.646 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:06:32.651 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:06:32.651 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:06:32.652 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:06:37.405 [Worker-397: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:06:39.495 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:06:39.495 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:06:39.496 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:06:39.497 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:06:39.497 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:06:39.498 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:06:43.406 [Worker-397: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:15:30.803 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:15:30.803 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:15:30.804 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:15:30.804 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:15:30.804 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:15:30.805 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:15:34.521 [Worker-401: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:15:36.956 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:15:36.956 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:15:36.957 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:15:36.959 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:15:36.959 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:15:36.959 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:15:41.642 [Worker-404: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:18:57.312 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:18:57.312 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:18:57.313 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:18:57.314 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:18:57.314 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:18:57.314 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:19:04.593 [Worker-406: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:19:08.557 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:19:08.557 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:19:08.557 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:19:08.558 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:19:08.558 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:19:08.558 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:19:13.151 [Worker-407: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:33:48.843 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:33:48.843 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:33:48.844 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:33:48.844 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:33:48.845 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:33:48.845 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:33:52.571 [Worker-410: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:33:54.902 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:33:54.902 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:33:54.902 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:33:54.903 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:33:54.903 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:33:54.903 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:33:59.282 [Worker-406: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:35:54.021 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:35:54.021 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:35:54.021 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:35:54.022 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:35:54.022 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:35:54.022 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:36:10.862 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:36:10.862 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:36:10.863 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:36:10.863 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:36:10.863 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:36:10.864 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:52:12.785 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:52:12.786 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:52:12.788 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:52:12.789 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:52:12.789 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:52:12.790 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:52:16.248 [Worker-415: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:52:19.006 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:52:19.006 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:52:19.008 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:52:19.009 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:52:19.010 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:52:19.012 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:52:22.360 [Worker-419: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:56:20.229 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:56:20.230 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:56:20.231 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:56:20.232 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:56:20.232 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:56:20.233 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:56:25.209 [Worker-415: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:56:27.949 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:56:27.949 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:56:27.950 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:56:27.951 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:56:27.951 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:56:27.951 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:56:32.302 [Worker-424: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:08:42.508 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:08:42.508 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:08:42.511 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:08:42.512 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:08:42.512 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:08:42.512 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:08:48.730 [Worker-430: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:08:54.562 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:08:54.562 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:08:54.563 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:08:54.564 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:08:54.564 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:08:54.565 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:09:02.533 [Worker-425: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:15:13.515 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:15:13.515 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:15:13.516 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:15:13.516 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:15:13.517 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:15:13.517 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:15:16.907 [Worker-436: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:15:44.493 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:15:44.493 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:15:44.495 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:15:44.496 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:15:44.496 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:15:44.497 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:15:48.717 [Worker-437: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:19:56.121 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:19:56.122 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:19:56.125 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:19:56.127 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:19:56.127 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:19:56.129 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:20:01.297 [Worker-437: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:20:03.907 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:20:03.907 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:20:03.908 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:20:03.909 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:20:03.909 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:20:03.910 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:20:07.123 [Worker-437: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:22:24.987 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:22:24.987 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:22:24.989 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:22:24.990 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:22:24.990 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:22:24.991 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:22:28.396 [Worker-444: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:31:50.820 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:31:50.820 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:31:50.821 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:31:50.822 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:31:50.822 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:31:50.823 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:31:54.212 [Worker-444: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:31:58.380 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:31:58.380 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:31:58.382 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:31:58.383 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:31:58.383 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:31:58.385 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:32:01.973 [Worker-437: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:35:49.609 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:35:49.609 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:35:49.611 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:35:49.612 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:35:49.612 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:35:49.613 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:35:53.029 [Worker-446: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:35:54.464 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:35:54.465 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:35:54.465 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:35:54.466 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:35:54.466 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:35:54.466 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:36:02.216 [Worker-449: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:39:35.452 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:39:35.452 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:39:35.452 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:39:35.453 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:39:35.453 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:39:35.453 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:39:37.374 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:39:37.375 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:39:37.375 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:39:37.376 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:39:37.376 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:39:37.376 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:39:41.060 [Worker-452: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:39:50.496 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:39:50.496 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:39:50.497 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:39:50.498 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:39:50.498 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:39:50.499 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:39:54.888 [Worker-448: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:42:37.687 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:42:37.687 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:42:37.688 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:42:37.689 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:42:37.689 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:42:37.689 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:42:41.601 [Worker-455: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:42:43.335 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:42:43.335 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:42:43.336 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:42:43.337 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:42:43.337 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:42:43.337 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:42:47.538 [Worker-455: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:47:05.139 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:47:05.139 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:47:05.140 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:47:05.140 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:47:05.141 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:47:05.141 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:47:08.622 [Worker-457: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:47:13.773 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:47:13.773 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:47:13.774 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:47:13.774 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:47:13.774 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:47:13.775 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:47:17.995 [Worker-459: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:50:40.261 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:50:40.261 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:50:40.262 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:50:40.262 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:50:40.262 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:50:40.263 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:50:44.113 [Worker-461: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:51:35.239 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:51:35.239 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:51:35.240 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:51:35.240 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:51:35.240 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:51:35.240 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:51:38.759 [Worker-463: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:54:35.625 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:54:35.625 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:54:35.626 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:54:35.626 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:54:35.626 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:54:35.627 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:55:51.938 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:55:51.938 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:55:51.938 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:55:51.939 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:55:51.939 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:55:51.939 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:55:56.119 [Worker-467: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:59:28.499 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+00:59:28.500 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:59:28.500 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+00:59:28.500 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+00:59:28.500 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+00:59:28.501 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+00:59:32.936 [Worker-470: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+22:59:47.360 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+22:59:47.361 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:59:47.362 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+22:59:47.362 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+22:59:47.362 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+22:59:47.364 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+22:59:52.636 [Worker-473: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:00:49.674 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:00:49.674 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:00:49.675 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:00:49.676 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:00:49.676 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:00:49.678 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:00:55.252 [Worker-475: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:01:01.517 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:01:01.517 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:01:01.519 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:01:01.520 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:01:01.520 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:01:01.520 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:01:05.739 [Worker-474: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:06:46.010 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:06:46.010 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:06:46.012 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:06:46.013 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:06:46.013 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:06:46.015 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:06:58.755 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:06:58.755 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:06:58.756 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:06:58.757 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:06:58.757 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:06:58.758 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:07:37.789 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:07:37.790 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:07:37.790 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:07:37.792 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:07:37.792 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:07:37.792 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:07:42.222 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:07:42.222 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:07:42.223 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:07:42.223 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:07:42.223 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:07:42.223 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:08:10.866 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:08:10.866 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:08:10.867 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:08:10.868 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:08:10.868 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:08:10.869 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:08:22.989 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:08:22.989 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:08:22.990 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:08:22.990 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:08:22.990 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:08:22.990 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:13:04.269 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:13:04.270 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:13:04.270 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:13:04.270 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:13:04.270 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:13:04.271 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:13:27.470 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:13:27.470 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:13:27.470 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:13:27.471 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:13:27.471 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:13:27.471 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:13:36.522 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:13:36.522 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:13:36.523 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:13:36.523 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:13:36.523 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:13:36.524 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:17:23.277 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:17:23.277 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:17:23.277 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:17:23.278 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:17:23.278 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:17:23.278 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:17:26.216 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:17:26.216 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:17:26.217 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:17:26.217 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:17:26.217 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:17:26.218 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:17:52.293 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:17:52.297 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:17:52.298 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:17:52.298 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:17:52.298 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:17:52.299 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:17:54.137 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:17:54.137 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:17:54.138 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:17:54.138 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:17:54.138 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:17:54.140 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:18:09.826 [main] INFO  c.b.launchers.LaunchMavenCommand - Executing maven archetype command - browserstack-sdk-archetype-integrate
+23:18:09.835 [main] INFO  c.b.launchers.LaunchMavenCommand - The maven properties for launcher are [archetypeArtifactId=browserstack-sdk-archetype-integrate, BROWSERSTACK_ACCESS_KEY=NxWFRntdVvY8EuLGPpTy, groupId=com.browserstack, BROWSERSTACK_APP=bs://sample.app, BROWSERSTACK_FRAMEWORK=java, version=1.0, PROJECT_NAME=BrowserStack Sample, archetypeVersion=1.5, archetypeGroupId=com.browserstack, artifactId=java-archetype-integrate, BROWSERSTACK_USERNAME=shradhasahu_A3d5Pl, BUILD_NAME=browserstack build, BROWSERSTACK_SOURCE=java:appium-eclipse:v1.0.10]
+23:18:09.838 [Worker-472: Launching mavenrun-62773ca6-0fd5-4b12-b9ca-2f8adb6424cd] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:19:01.961 [Worker-482: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:19:03.242 [Worker-482: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:20:06.104 [Worker-482: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:20:11.552 [Worker-485: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:20:21.752 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:20:21.753 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:20:21.753 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:20:21.753 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:20:21.753 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:20:21.754 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:20:25.206 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:20:25.206 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:20:25.207 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:20:25.208 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:20:25.208 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:20:25.209 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:20:38.236 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:20:38.236 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:20:38.237 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:20:38.237 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:20:38.237 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:20:38.238 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:20:42.471 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:20:42.471 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:20:42.472 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:20:42.473 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:20:42.473 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:20:42.474 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:21:05.549 [Worker-481: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:21:07.541 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:21:07.541 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:21:07.542 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:21:07.542 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:21:07.542 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:21:07.543 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:21:11.008 [Worker-485: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:27:22.165 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:27:22.165 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:27:22.167 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:27:22.167 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:27:22.167 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:27:22.168 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:27:25.407 [Worker-489: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:27:27.258 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:27:27.259 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:27:27.260 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:27:27.260 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:27:27.260 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:27:27.261 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:27:30.367 [Worker-487: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:29:31.647 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:29:31.648 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:29:31.648 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:29:31.649 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:29:31.649 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:29:31.649 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:29:34.993 [Worker-487: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:29:36.699 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:29:36.699 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:29:36.699 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:29:36.700 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:29:36.700 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:29:36.701 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:29:47.903 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackEnabled
+23:29:47.903 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:29:47.904 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackEnabled : true P/DataDrivenFramework
+23:29:47.904 [main] INFO  c.b.a.BrowserStackPropertyTester - Testing : isBrowserStackDisabled
+23:29:47.904 [main] INFO  c.b.BrowserStackPluginActivator - Prefs Keys []
+23:29:47.904 [main] INFO  c.b.a.BrowserStackPropertyTester - Validation Result isBrowserStackDisabled : false P/DataDrivenFramework
+23:29:51.390 [Worker-490: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:38:41.506 [Worker-489: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:38:48.979 [Worker-496: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:39:20.590 [Worker-495: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:39:30.584 [Worker-497: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:40:55.381 [Worker-496: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:41:00.440 [Worker-496: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:45:58.919 [Worker-494: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+23:46:05.668 [Worker-499: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:02:17.235 [Worker-503: Launching Executing clean in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
+00:02:27.191 [Worker-507: Launching Executing test in C__Users_Shradha Sahu_Downloads_DataDrivenFramework_DataDrivenFramework] INFO  c.b.BrowserStackPluginActivator - The previous launch removed.
